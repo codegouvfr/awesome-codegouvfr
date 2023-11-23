@@ -60,8 +60,9 @@ dependsOn: # optional
   
 metadataFiles: # new - optional
   readme:
-  licence:
+  license:
   contributing:
   changelog:
   codeOfConduct:
   governance:
+  funding:
