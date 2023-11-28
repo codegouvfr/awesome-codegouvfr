@@ -40,7 +40,6 @@ const ecosystemToPubliccodeMapping = ecosystem => {
                 email: ""
             }]
         },
-        dependsOn: {},
         metadataFiles: {
             readme: ecosystem.repository.metadata.files?.readme,
             license: ecosystem.repository.metadata.files?.license,

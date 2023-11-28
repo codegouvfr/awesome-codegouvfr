@@ -28,7 +28,6 @@ maintenance:
   contacts:
     - name: ""
       email: ""
-dependsOn: {}
 metadataFiles:
   readme: README.md
   license: LICENSE.txt
