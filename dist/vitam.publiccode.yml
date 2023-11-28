@@ -1,0 +1,41 @@
+publiccodeYmlVersion: "0.2"
+name: ProgrammeVitam/vitam
+url: https://github.com/ProgrammeVitam/vitam
+landingURL: null
+isBasedOn: false
+creationDate: 2017-01-15
+latestReleaseDate: ""
+latestCommitDate: 2023-10-25
+latestTestedInstallationDate: ""
+latestFundingDate: ""
+logo: https://github.com/ProgrammeVitam.png
+usedBy: []
+distinctAuthorsCount: 0
+distinctOrganizationCount: 0
+roadmap: ""
+softwareType: ""
+distribution: []
+description:
+  en:
+    shortDescription: Digital Archives Management System developped by French
+      government/Programme interministériel archives numériques ; core system.
+    documentation: ""
+legal:
+  license: cecill-2.1
+  authorsFile: ""
+maintenance:
+  type: ""
+  contacts:
+    - name: ""
+      email: ""
+dependsOn: {}
+metadataFiles:
+  readme: README.en.rst
+  license: LICENSE.md
+  contributing: CONTRIBUTING.md
+  changelog: null
+  codeOfConduct: null
+  governance: null
+  funding: null
+lastUpdated: 2023-11-28
+score: 0

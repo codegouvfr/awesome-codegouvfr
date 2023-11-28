@@ -1,0 +1,40 @@
+publiccodeYmlVersion: "0.2"
+name: InseeFrLab/onyxia
+url: https://github.com/InseeFrLab/onyxia
+landingURL: https://onyxia.sh
+isBasedOn: false
+creationDate: 2020-03-22
+latestReleaseDate: ""
+latestCommitDate: 2023-09-25
+latestTestedInstallationDate: ""
+latestFundingDate: ""
+logo: https://github.com/InseeFrLab.png
+usedBy: []
+distinctAuthorsCount: 0
+distinctOrganizationCount: 0
+roadmap: ""
+softwareType: ""
+distribution: []
+description:
+  en:
+    shortDescription: 🔬 Web app to simplify data science environment setup on Kubernetes
+    documentation: ""
+legal:
+  license: mit
+  authorsFile: ""
+maintenance:
+  type: ""
+  contacts:
+    - name: ""
+      email: ""
+dependsOn: {}
+metadataFiles:
+  readme: README.md
+  license: null
+  contributing: null
+  changelog: null
+  codeOfConduct: null
+  governance: null
+  funding: null
+lastUpdated: 2023-11-28
+score: 0

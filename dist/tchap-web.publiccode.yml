@@ -1,0 +1,40 @@
+publiccodeYmlVersion: "0.2"
+name: tchapgouv/tchap-web-v4
+url: https://github.com/tchapgouv/tchap-web-v4
+landingURL: https://www.tchap.gouv.fr/
+isBasedOn: false
+creationDate: 2022-01-27
+latestReleaseDate: ""
+latestCommitDate: 2023-11-16
+latestTestedInstallationDate: ""
+latestFundingDate: ""
+logo: https://github.com/tchapgouv.png
+usedBy: []
+distinctAuthorsCount: 0
+distinctOrganizationCount: 0
+roadmap: ""
+softwareType: ""
+distribution: []
+description:
+  en:
+    shortDescription: A Matrix web client for Tchap
+    documentation: ""
+legal:
+  license: apache-2.0
+  authorsFile: ""
+maintenance:
+  type: ""
+  contacts:
+    - name: ""
+      email: ""
+dependsOn: {}
+metadataFiles:
+  readme: README.md
+  license: LICENSE
+  contributing: CONTRIBUTING.md
+  changelog: CHANGELOG.md
+  codeOfConduct: null
+  governance: null
+  funding: .github/FUNDING.yml
+lastUpdated: 2023-11-28
+score: 0

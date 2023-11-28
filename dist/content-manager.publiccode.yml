@@ -1,0 +1,41 @@
+publiccodeYmlVersion: "0.2"
+name: numerique-gouv/content-manager
+url: https://github.com/numerique-gouv/content-manager
+landingURL: https://content-manager.osc-fr1.scalingo.io/
+isBasedOn: false
+creationDate: 2023-01-10
+latestReleaseDate: ""
+latestCommitDate: 2023-11-27
+latestTestedInstallationDate: ""
+latestFundingDate: ""
+logo: https://github.com/numerique-gouv.png
+usedBy: []
+distinctAuthorsCount: 0
+distinctOrganizationCount: 0
+roadmap: ""
+softwareType: ""
+distribution: []
+description:
+  en:
+    shortDescription: Gestionnaire de contenu permettant de créer et gérer un site
+      internet basé sur le Système de design de l'État, accessible et responsive
+    documentation: ""
+legal:
+  license: agpl-3.0
+  authorsFile: ""
+maintenance:
+  type: ""
+  contacts:
+    - name: ""
+      email: ""
+dependsOn: {}
+metadataFiles:
+  readme: README.md
+  license: LICENSE
+  contributing: null
+  changelog: null
+  codeOfConduct: null
+  governance: null
+  funding: null
+lastUpdated: 2023-11-28
+score: 0

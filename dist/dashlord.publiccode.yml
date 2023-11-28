@@ -1,0 +1,40 @@
+publiccodeYmlVersion: "0.2"
+name: SocialGouv/dashlord
+url: https://github.com/SocialGouv/dashlord
+landingURL: https://socialgouv.github.io/dashlord
+isBasedOn: false
+creationDate: 2021-04-04
+latestReleaseDate: ""
+latestCommitDate: 2023-11-28
+latestTestedInstallationDate: ""
+latestFundingDate: ""
+logo: https://github.com/SocialGouv.png
+usedBy: []
+distinctAuthorsCount: 0
+distinctOrganizationCount: 0
+roadmap: ""
+softwareType: ""
+distribution: []
+description:
+  en:
+    shortDescription: The best-practices Dashboard
+    documentation: ""
+legal:
+  license: apache-2.0
+  authorsFile: ""
+maintenance:
+  type: ""
+  contacts:
+    - name: ""
+      email: ""
+dependsOn: {}
+metadataFiles:
+  readme: README.md
+  license: LICENSE
+  contributing: CONTRIBUTING.md
+  changelog: null
+  codeOfConduct: null
+  governance: null
+  funding: null
+lastUpdated: 2023-11-28
+score: 0

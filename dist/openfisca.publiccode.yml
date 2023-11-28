@@ -1,0 +1,45 @@
+publiccodeYmlVersion: "0.2"
+name: openfisca/openfisca-france
+url: https://github.com/openfisca/openfisca-france
+landingURL: https://fr.openfisca.org/
+isBasedOn: false
+creationDate: 2013-12-29
+latestReleaseDate: ""
+latestCommitDate: 2023-09-25
+latestTestedInstallationDate: ""
+latestFundingDate: ""
+logo: https://github.com/openfisca.png
+usedBy: []
+distinctAuthorsCount: 0
+distinctOrganizationCount: 0
+roadmap: ""
+softwareType: ""
+distribution:
+  - pypi
+  - conda
+  - conda
+  - conda
+  - pypi
+description:
+  en:
+    shortDescription: French tax and benefit system for OpenFisca
+    documentation: ""
+legal:
+  license: null
+  authorsFile: ""
+maintenance:
+  type: ""
+  contacts:
+    - name: ""
+      email: ""
+dependsOn: {}
+metadataFiles:
+  readme: README.md
+  license: LICENSE.AGPL.txt
+  contributing: CONTRIBUTING.md
+  changelog: CHANGELOG.md
+  codeOfConduct: null
+  governance: null
+  funding: null
+lastUpdated: 2023-11-28
+score: 0

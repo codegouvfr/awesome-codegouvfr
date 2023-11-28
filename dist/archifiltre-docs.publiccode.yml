@@ -1,0 +1,40 @@
+publiccodeYmlVersion: "0.2"
+name: SocialGouv/archifiltre-docs
+url: https://github.com/SocialGouv/archifiltre-docs
+landingURL: https://archifiltre.fr/docs
+isBasedOn: false
+creationDate: 2019-06-18
+latestReleaseDate: ""
+latestCommitDate: 2023-11-27
+latestTestedInstallationDate: ""
+latestFundingDate: ""
+logo: https://github.com/SocialGouv.png
+usedBy: []
+distinctAuthorsCount: 0
+distinctOrganizationCount: 0
+roadmap: ""
+softwareType: ""
+distribution: []
+description:
+  en:
+    shortDescription: Visualisez et améliorez vos arborescences de fichiers !
+    documentation: ""
+legal:
+  license: apache-2.0
+  authorsFile: ""
+maintenance:
+  type: ""
+  contacts:
+    - name: ""
+      email: ""
+dependsOn: {}
+metadataFiles:
+  readme: README.md
+  license: LICENSE
+  contributing: CONTRIBUTING.md
+  changelog: CHANGELOG.md
+  codeOfConduct: null
+  governance: null
+  funding: null
+lastUpdated: 2023-11-28
+score: 0

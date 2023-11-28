@@ -1,0 +1,42 @@
+publiccodeYmlVersion: "0.2"
+name: GouvernementFR/dsfr
+url: https://github.com/GouvernementFR/dsfr
+landingURL: https://www.systeme-de-design.gouv.fr/
+isBasedOn: false
+creationDate: 2020-06-12
+latestReleaseDate: ""
+latestCommitDate: 2023-11-28
+latestTestedInstallationDate: ""
+latestFundingDate: ""
+logo: https://github.com/GouvernementFR.png
+usedBy: []
+distinctAuthorsCount: 0
+distinctOrganizationCount: 0
+roadmap: ""
+softwareType: ""
+distribution:
+  - npm
+description:
+  en:
+    shortDescription: 🇫🇷 Official french government's design system (Système de
+      Design de l'État)
+    documentation: ""
+legal:
+  license: other
+  authorsFile: ""
+maintenance:
+  type: ""
+  contacts:
+    - name: ""
+      email: ""
+dependsOn: {}
+metadataFiles:
+  readme: README.md
+  license: LICENSE.md
+  contributing: CONTRIBUTING.md
+  changelog: CHANGELOG.md
+  codeOfConduct: null
+  governance: null
+  funding: null
+lastUpdated: 2023-11-28
+score: 0

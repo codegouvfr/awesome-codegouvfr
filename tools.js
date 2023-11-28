@@ -1,4 +1,5 @@
 const axios = require("axios");
+const { DateTime } = require("luxon");
 const YAML = require("yaml");
 
 const ECOSYSTEM_URL = "https://summary.ecosyste.ms/api/v1/projects/lookup";
@@ -7,12 +8,12 @@ const ecosystemToPubliccodeMapping = ecosystem => {
     return {
         publiccodeYmlVersion: "0.2",
         name: ecosystem.repository?.full_name,
-        url: ecosystem.repository.url,
+        url: ecosystem.url,
         landingURL: ecosystem.repository.homepage,
         isBasedOn: ecosystem.repository.fork,
-        creationDate: ecosystem.repository.created_at,
+        creationDate: DateTime.fromISO(ecosystem.repository.created_at).toISODate(),
         latestReleaseDate: "",
-        latestCommitDate: ecosystem.repository.pushed_at,
+        latestCommitDate: DateTime.fromISO(ecosystem.repository.pushed_at).toISODate(),
         latestTestedInstallationDate: "",
         latestFundingDate: "",
         logo: ecosystem.repository.icon_url,
@@ -50,8 +51,8 @@ const ecosystemToPubliccodeMapping = ecosystem => {
             funding: ecosystem.repository.metadata.files?.funding
         },
 
-        lastUpdated: "",
-        score: ""
+        lastUpdated: DateTime.now().toISODate(),
+        score: 0
     };
 }
 

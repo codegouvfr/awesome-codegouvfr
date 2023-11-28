@@ -1,0 +1,40 @@
+publiccodeYmlVersion: "0.2"
+name: betagouv/django-magicauth
+url: https://github.com/betagouv/django-magicauth
+landingURL: null
+isBasedOn: false
+creationDate: 2019-09-05
+latestReleaseDate: ""
+latestCommitDate: 2023-08-24
+latestTestedInstallationDate: ""
+latestFundingDate: ""
+logo: https://github.com/betagouv.png
+usedBy: []
+distinctAuthorsCount: 0
+distinctOrganizationCount: 0
+roadmap: ""
+softwareType: ""
+distribution: []
+description:
+  en:
+    shortDescription: Password-less authentication for Django. An email with a magic
+      link allows a secure login
+    documentation: ""
+legal:
+  license: mit
+  authorsFile: ""
+maintenance:
+  type: ""
+  contacts:
+    - name: ""
+      email: ""
+dependsOn: {}
+metadataFiles:
+  readme: README.md
+  license: LICENSE
+  contributing: null
+  changelog: null
+  codeOfConduct: null
+  funding: null
+lastUpdated: 2023-11-28
+score: 0

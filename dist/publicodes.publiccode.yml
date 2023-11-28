@@ -1,0 +1,40 @@
+publiccodeYmlVersion: "0.2"
+name: publicodes/publicodes
+url: https://github.com/publicodes/publicodes
+landingURL: https://publi.codes
+isBasedOn: false
+creationDate: 2019-04-02
+latestReleaseDate: ""
+latestCommitDate: 2023-10-27
+latestTestedInstallationDate: ""
+latestFundingDate: ""
+logo: https://github.com/publicodes.png
+usedBy: []
+distinctAuthorsCount: 0
+distinctOrganizationCount: 0
+roadmap: ""
+softwareType: ""
+distribution: []
+description:
+  en:
+    shortDescription: Le langage pour les algorithmes d'intérêt public
+    documentation: ""
+legal:
+  license: mit
+  authorsFile: ""
+maintenance:
+  type: ""
+  contacts:
+    - name: ""
+      email: ""
+dependsOn: {}
+metadataFiles:
+  readme: README.md
+  license: LICENSE
+  contributing: CONTRIBUTING.md
+  changelog: CHANGELOG.md
+  codeOfConduct: null
+  governance: null
+  funding: null
+lastUpdated: 2023-11-28
+score: 0
