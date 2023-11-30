@@ -12,15 +12,17 @@ Je souhaite mettre à jour les informations manquantes suivantes [SUPPRIMER LES 
 
 ## Mainteneurs
 
-- [CONTACT DU MAINTENEUR 1]
-- [CONTACT DU MAINTENEUR 2]
+- [E-MAIL OU URL DE CONTACT DU MAINTENEUR 1]
+- [E-MAIL OU URL DE CONTACT DU MAINTENEUR 2]
 - ...
 
 ## Financements
 
-- [NOM DE L'ADMINISTRATION 1]
-- [NOM DE L'ADMINISTRATION 2]
+- [LIEN DE L'ADMINISTRATION DANS L'ANNUAIRE DU SERVICE PUBLIC OU A DEFAUT NOM DE L'ADMINISTRATION 1]
+- [LIEN DE L'ADMINISTRATION DANS L'ANNUAIRE DU SERVICE PUBLIC OU A DEFAUT NOM DE L'ADMINISTRATION 2]
 - ...
+
+Cf. [annuaire du service public](https://lannuaire.service-public.fr/).
 
 ## Réutilisations
 
