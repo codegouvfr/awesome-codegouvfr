@@ -3,51 +3,54 @@ publiccodeYmlVersion: "0.2"
 name: Medusa
 url: "https://example.com/italia/medusa.git"
 landingURL: "https://example.com/italia/medusa" # optional
-isBasedOn: "https://github.com/italia/otello.git" # optional
-  creationDate: # new
-latestReleaseDate: "2017-04-15" # `releaseDate` in publiccode.yml
-latestCommitDate: # new
+creationDate: # new
+latestReleaseDate: "2017-04-15" # `releaseDate` and mandatory in publiccode.yml - optional
+latestCommitDate: # new - optional
 latestTestedInstallationDate: # new
-latestFundingDate: # new
 logo: img/logo.svg # optional
 
-usedBy: # optional in publiccode.yml
+usedBy: # mandatory - optional in publiccode.yml
   - Comune di Firenze
   - Comune di Roma
 
-distinctAuthorsCount: # new - optional
-distinctOrganizationCount: # new - optional
+fundedBy:
+  - https://lannuaire.service-public.fr/gouvernement/d1a97841-b4bf-46df-a089-1003e4e266b4
 
-roadmap: "https://example.com/italia/medusa/roadmap" # optional in publiccode.yml
+roadmap: "https://example.com/italia/medusa/roadmap" # optional
 
 softwareType: "standalone/desktop"
-distribution: # new - optional
+packaging: # new - optional
+  - npm
 
 description:
   en:
     shortDescription: >
           A rather short description which
           is probably useless
-    documentation: "https://read.the.documentation/medusa/v1.0" # optional in publiccode.yml
+    documentation: "https://read.the.documentation/medusa/v1.0" # mandatory - optional in publiccode.yml
 
 legal:
   license: AGPL-3.0-or-later
-  authorsFile: AUTHORS # optional in publiccode.yml
+  authorsFile: AUTHORS # optional
+
+authors:
+  distinctAuthorsCount: # new - optional
+  distinctOrganizationsCount: # new - optional
 
 maintenance:
   type: "community"
-
   contacts:
     - name: Francesco Rossi
-      email: "francesco.rossi@comune.reggioemilia.it" # optional in publiccode.yml
+      email: "francesco.rossi@comune.reggioemilia.it" # mandatory - optional in publiccode.yml
   
 metadataFiles: # new - optional
-  readme:
-  license:
+  readme: # mandatory
+  license: # mandatory
   contributing:
   changelog:
   codeOfConduct:
   governance:
-  funding:
-lastUpdated: 2023-11-28
-score: 0
+
+score: 10
+
+lastUpdated: 2023-11-30
