@@ -2,20 +2,20 @@ publiccodeYmlVersion: "0.2"
 name: opendatateam/udata
 url: https://github.com/opendatateam/udata
 landingURL: http://udata.readthedocs.org
-isBasedOn: false
 creationDate: 2014-04-25
-latestReleaseDate: ""
-latestCommitDate: 2023-10-19
+latestRelease:
+  date: ""
+  version: ""
+latestCommitDate: 2023-11-27
 latestTestedInstallationDate: ""
-latestFundingDate: ""
 logo: https://github.com/opendatateam.png
 usedBy: []
-distinctAuthorsCount: 0
-distinctOrganizationCount: 0
+fundedBy: []
 roadmap: ""
 softwareType: ""
-distribution:
-  - pypi
+packages:
+  - systemName: pypi
+    url: https://pypi.org/project/udata/
 description:
   en:
     shortDescription: Customizable and skinnable social platform dedicated to open data.
@@ -23,8 +23,11 @@ description:
 legal:
   license: agpl-3.0
   authorsFile: ""
+authors:
+  distinctAuthorsCount: 0
+  distinctOrganizationsCount: 0
 maintenance:
-  type: ""
+  type: community
   contacts:
     - name: ""
       email: ""
@@ -35,6 +38,5 @@ metadataFiles:
   changelog: CHANGELOG.md
   codeOfConduct: null
   governance: null
-  funding: null
-lastUpdated: 2023-11-28
-score: 0
+lastUpdated: 2023-12-01
+awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_8/10-blue

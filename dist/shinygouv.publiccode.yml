@@ -2,19 +2,18 @@ publiccodeYmlVersion: "0.2"
 name: spyrales/shinygouv
 url: https://github.com/spyrales/shinygouv
 landingURL: https://spyrales.github.io/shinygouv/
-isBasedOn: false
 creationDate: 2022-07-08
-latestReleaseDate: ""
-latestCommitDate: 2023-11-06
+latestRelease:
+  date: ""
+  version: ""
+latestCommitDate: 2023-11-21
 latestTestedInstallationDate: ""
-latestFundingDate: ""
 logo: https://github.com/spyrales.png
 usedBy: []
-distinctAuthorsCount: 0
-distinctOrganizationCount: 0
+fundedBy: []
 roadmap: ""
 softwareType: ""
-distribution: []
+packages: []
 description:
   en:
     shortDescription: Design System de l'Etat pour Shiny
@@ -22,8 +21,11 @@ description:
 legal:
   license: eupl-1.2
   authorsFile: ""
+authors:
+  distinctAuthorsCount: 0
+  distinctOrganizationsCount: 0
 maintenance:
-  type: ""
+  type: community
   contacts:
     - name: ""
       email: ""
@@ -34,6 +36,5 @@ metadataFiles:
   changelog: null
   codeOfConduct: CODE_OF_CONDUCT.md
   governance: null
-  funding: null
-lastUpdated: 2023-11-28
-score: 0
+lastUpdated: 2023-12-01
+awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_7/10-blue

@@ -2,24 +2,28 @@ publiccodeYmlVersion: "0.2"
 name: openfisca/openfisca-france
 url: https://github.com/openfisca/openfisca-france
 landingURL: https://fr.openfisca.org/
-isBasedOn: false
 creationDate: 2013-12-29
-latestReleaseDate: ""
-latestCommitDate: 2023-09-25
+latestRelease:
+  date: ""
+  version: ""
+latestCommitDate: 2023-11-27
 latestTestedInstallationDate: ""
-latestFundingDate: ""
 logo: https://github.com/openfisca.png
 usedBy: []
-distinctAuthorsCount: 0
-distinctOrganizationCount: 0
+fundedBy: []
 roadmap: ""
 softwareType: ""
-distribution:
-  - pypi
-  - conda
-  - conda
-  - conda
-  - pypi
+packages:
+  - systemName: pypi
+    url: https://pypi.org/project/openfisca-france-test/
+  - systemName: conda
+    url: https://anaconda.org/conda-forge/openfisca-france
+  - systemName: pypi
+    url: https://pypi.org/project/openfisca-france/
+  - systemName: conda
+    url: https://anaconda.org/conda-forge/openfisca-france-dev
+  - systemName: conda
+    url: https://anaconda.org/conda-forge/openfisca-france-scipy
 description:
   en:
     shortDescription: French tax and benefit system for OpenFisca
@@ -27,8 +31,11 @@ description:
 legal:
   license: null
   authorsFile: ""
+authors:
+  distinctAuthorsCount: 0
+  distinctOrganizationsCount: 0
 maintenance:
-  type: ""
+  type: community
   contacts:
     - name: ""
       email: ""
@@ -39,6 +46,5 @@ metadataFiles:
   changelog: CHANGELOG.md
   codeOfConduct: null
   governance: null
-  funding: null
-lastUpdated: 2023-11-28
-score: 0
+lastUpdated: 2023-12-01
+awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_8/10-blue
