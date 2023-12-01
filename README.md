@@ -18,7 +18,7 @@ détaillons dans la documentation des [métadonnées](metadata.md).
 Le format de nos fichiers `.yml` est le même que le format
 [publiccode.yml](https://github.com/publiccodeyml/publiccode.yml),
 même si nous ne suivons pas strictement le standard publiccode en
-omettant certaines données que celui-ci considère obligatoires.
+omettant certaines données que celui-ci considère obligatoires, et en en ajoutant d'autres que nous trouvons pertinentes.
 
 Un exemple de description d'un projet se trouve dans le fichier
 [template.publiccode.yml](template.publiccode.yml).
