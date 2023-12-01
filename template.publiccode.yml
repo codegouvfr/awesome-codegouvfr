@@ -16,7 +16,8 @@ usedBy: # mandatory - optional in publiccode.yml
   - Comune di Roma
 
 fundedBy:
-  - https://lannuaire.service-public.fr/gouvernement/d1a97841-b4bf-46df-a089-1003e4e266b4
+  - name: DINUM
+    url: https://lannuaire.service-public.fr/gouvernement/d1a97841-b4bf-46df-a089-1003e4e266b4
 
 roadmap: "https://example.com/italia/medusa/roadmap" # optional
 
@@ -41,10 +42,9 @@ authors:
   distinctOrganizationsCount: # new - optional
 
 maintenance:
-  type: "community"
+  type: "internal"
   contacts:
-    - name: Francesco Rossi
-      email: "francesco.rossi@comune.reggioemilia.it" # mandatory - optional in publiccode.yml
+    - email: "francesco.rossi@comune.reggioemilia.it" # mandatory - optional in publiccode.yml
   
 metadataFiles: # new - optional
   readme: # mandatory
