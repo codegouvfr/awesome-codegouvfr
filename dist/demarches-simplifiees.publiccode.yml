@@ -2,19 +2,18 @@ publiccodeYmlVersion: "0.2"
 name: demarches-simplifiees/demarches-simplifiees.fr
 url: https://github.com/demarches-simplifiees/demarches-simplifiees.fr
 landingURL: https://www.demarches-simplifiees.fr
-isBasedOn: false
 creationDate: 2015-10-13
-latestReleaseDate: ""
+latestRelease:
+  date: ""
+  version: ""
 latestCommitDate: 2023-10-19
 latestTestedInstallationDate: ""
-latestFundingDate: ""
 logo: https://github.com/demarches-simplifiees.png
 usedBy: []
-distinctAuthorsCount: 0
-distinctOrganizationCount: 0
+fundedBy: []
 roadmap: ""
 softwareType: ""
-distribution: []
+packages: []
 description:
   en:
     shortDescription: "Dématérialiser et simplifier les démarches administratives "
@@ -22,8 +21,11 @@ description:
 legal:
   license: agpl-3.0
   authorsFile: ""
+authors:
+  distinctAuthorsCount: 0
+  distinctOrganizationsCount: 0
 maintenance:
-  type: ""
+  type: community
   contacts:
     - name: ""
       email: ""
@@ -34,6 +36,5 @@ metadataFiles:
   changelog: null
   codeOfConduct: null
   governance: null
-  funding: null
-lastUpdated: 2023-11-28
-score: 0
+lastUpdated: 2023-12-01
+awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_6/10-blue

@@ -2,20 +2,20 @@ publiccodeYmlVersion: "0.2"
 name: BaseAdresseNationale/codes-postaux
 url: https://github.com/BaseAdresseNationale/codes-postaux
 landingURL: ""
-isBasedOn: false
 creationDate: 2014-11-14
-latestReleaseDate: ""
+latestRelease:
+  date: ""
+  version: ""
 latestCommitDate: 2023-02-28
 latestTestedInstallationDate: ""
-latestFundingDate: ""
 logo: https://github.com/BaseAdresseNationale.png
 usedBy: []
-distinctAuthorsCount: 0
-distinctOrganizationCount: 0
+fundedBy: []
 roadmap: ""
 softwareType: ""
-distribution:
-  - npm
+packages:
+  - systemName: npm
+    url: https://www.npmjs.com/package/codes-postaux
 description:
   en:
     shortDescription: Générer et manipuler facilement le fichier des codes postaux
@@ -23,8 +23,11 @@ description:
 legal:
   license: mit
   authorsFile: ""
+authors:
+  distinctAuthorsCount: 0
+  distinctOrganizationsCount: 0
 maintenance:
-  type: ""
+  type: community
   contacts:
     - name: ""
       email: ""
@@ -34,6 +37,5 @@ metadataFiles:
   contributing: null
   changelog: null
   codeOfConduct: null
-  funding: null
-lastUpdated: 2023-11-28
-score: 0
+lastUpdated: 2023-12-01
+awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_4/10-blue

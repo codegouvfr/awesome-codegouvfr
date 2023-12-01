@@ -2,20 +2,20 @@ publiccodeYmlVersion: "0.2"
 name: CatalaLang/catala
 url: https://github.com/CatalaLang/catala
 landingURL: https://catala-lang.org
-isBasedOn: false
 creationDate: 2020-04-17
-latestReleaseDate: ""
-latestCommitDate: 2023-11-02
+latestRelease:
+  date: ""
+  version: ""
+latestCommitDate: 2023-11-24
 latestTestedInstallationDate: ""
-latestFundingDate: ""
 logo: https://github.com/CatalaLang.png
 usedBy: []
-distinctAuthorsCount: 0
-distinctOrganizationCount: 0
+fundedBy: []
 roadmap: ""
 softwareType: ""
-distribution:
-  - npm
+packages:
+  - systemName: npm
+    url: https://www.npmjs.com/package/@catala-lang/french-law
 description:
   en:
     shortDescription: Programming language for literate programming law specification
@@ -23,8 +23,11 @@ description:
 legal:
   license: apache-2.0
   authorsFile: ""
+authors:
+  distinctAuthorsCount: 0
+  distinctOrganizationsCount: 0
 maintenance:
-  type: ""
+  type: community
   contacts:
     - name: ""
       email: ""
@@ -35,6 +38,5 @@ metadataFiles:
   changelog: null
   codeOfConduct: null
   governance: null
-  funding: null
-lastUpdated: 2023-11-28
-score: 0
+lastUpdated: 2023-12-01
+awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_7/10-blue

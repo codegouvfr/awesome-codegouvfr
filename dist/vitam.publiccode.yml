@@ -2,19 +2,32 @@ publiccodeYmlVersion: "0.2"
 name: ProgrammeVitam/vitam
 url: https://github.com/ProgrammeVitam/vitam
 landingURL: null
-isBasedOn: false
 creationDate: 2017-01-15
-latestReleaseDate: ""
+latestRelease:
+  date: ""
+  version: ""
 latestCommitDate: 2023-10-25
 latestTestedInstallationDate: ""
-latestFundingDate: ""
 logo: https://github.com/ProgrammeVitam.png
-usedBy: []
-distinctAuthorsCount: 0
-distinctOrganizationCount: 0
+usedBy:
+  - Archives nationales
+  - Archives diplomatiques
+  - Service historique de la Défense
+  - CNAM
+  - INPI
+  - Métropole Nice Côte d'Azur
+  - Cines
+  - Urssaf - Caisse nationale
+fundedBy:
+  - name: Ministère de la Culture
+    url: https://lannuaire.service-public.fr/gouvernement/da1d6275-6710-485d-a249-282cac69dfe7
+  - name: Ministère de l'Europe et des Affaires étrangères
+    url: https://lannuaire.service-public.fr/gouvernement/ac1a7fdb-50f4-4599-b306-ec06b7250965
+  - name: Ministère des Armées
+    url: https://lannuaire.service-public.fr/gouvernement/d24d1af2-c506-4b10-82e8-ab92b8e959d2
 roadmap: ""
 softwareType: ""
-distribution: []
+packages: []
 description:
   en:
     shortDescription: Digital Archives Management System developped by French
@@ -23,11 +36,13 @@ description:
 legal:
   license: cecill-2.1
   authorsFile: ""
+authors:
+  distinctAuthorsCount: 0
+  distinctOrganizationsCount: 0
 maintenance:
-  type: ""
+  type: internal
   contacts:
-    - name: ""
-      email: ""
+    - email: "contact@programmevitam.fr"
 metadataFiles:
   readme: README.en.rst
   license: LICENSE.md
@@ -35,6 +50,5 @@ metadataFiles:
   changelog: null
   codeOfConduct: null
   governance: null
-  funding: null
-lastUpdated: 2023-11-28
-score: 0
+lastUpdated: 2023-12-01
+awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_5/10-blue

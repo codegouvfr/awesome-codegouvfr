@@ -2,12 +2,12 @@ publiccodeYmlVersion: "0.2"
 name: SocialGouv/dashlord
 url: https://github.com/SocialGouv/dashlord
 landingURL: https://socialgouv.github.io/dashlord
-isBasedOn: false
 creationDate: 2021-04-04
-latestReleaseDate: ""
-latestCommitDate: 2023-11-28
+latestRelease:
+  date: ""
+  version: ""
+latestCommitDate: 2023-11-29
 latestTestedInstallationDate: ""
-latestFundingDate: ""
 logo: https://socialgouv.github.io/socialgroove-100.jpg
 usedBy:
  - Ministères sociaux
@@ -16,11 +16,10 @@ usedBy:
  - ANS
  - ADEME
  - ANACT
-distinctAuthorsCount: 0
-distinctOrganizationCount: 0
+fundedBy: []
 roadmap: ""
 softwareType: ""
-distribution: []
+packages: []
 description:
   en:
     shortDescription: The best-practices Dashboard
@@ -31,8 +30,11 @@ description:
 legal:
   license: apache-2.0
   authorsFile: ""
+authors:
+  distinctAuthorsCount: 0
+  distinctOrganizationsCount: 0
 maintenance:
-  type: ""
+  type: internal
   contacts:
     - name: "Julien Bouquillon"
       email: "julien.bouquillon@sg.social.gouv.fr"
@@ -43,6 +45,5 @@ metadataFiles:
   changelog: null
   codeOfConduct: null
   governance: null
-  funding: null
-lastUpdated: 2023-11-28
-score: 0
+lastUpdated: 2023-12-01
+awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_6/10-blue

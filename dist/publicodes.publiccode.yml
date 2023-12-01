@@ -2,19 +2,28 @@ publiccodeYmlVersion: "0.2"
 name: publicodes/publicodes
 url: https://github.com/publicodes/publicodes
 landingURL: https://publi.codes
-isBasedOn: false
 creationDate: 2019-04-02
-latestReleaseDate: ""
+latestRelease:
+  date: ""
+  version: ""
 latestCommitDate: 2023-10-27
 latestTestedInstallationDate: ""
-latestFundingDate: ""
 logo: https://github.com/publicodes.png
-usedBy: []
-distinctAuthorsCount: 0
-distinctOrganizationCount: 0
+usedBy:
+  - Urssaf
+  - Ademe
+  - MTPEI
+  - DINUM
+fundedBy:
+- name: Urssaf Caisse Nationale
+  url: https://lannuaire.service-public.fr/gouvernement/2ebb4281-f836-48b6-9b15-4e305d2df145
+- name: Ademe
+  url: https://lannuaire.service-public.fr/gouvernement/98505403-46c6-4d6c-9766-6c58bce9a221
+- name: Dinum
+  url: https://lannuaire.service-public.fr/gouvernement/d1a97841-b4bf-46df-a089-1003e4e266b4
 roadmap: ""
 softwareType: ""
-distribution: []
+packages: []
 description:
   en:
     shortDescription: Le langage pour les algorithmes d'intérêt public
@@ -22,11 +31,14 @@ description:
 legal:
   license: mit
   authorsFile: ""
+authors:
+  distinctAuthorsCount: 0
+  distinctOrganizationsCount: 0
 maintenance:
-  type: ""
+  type: internal
   contacts:
-    - name: ""
-      email: ""
+    - name: "Johan Girod"
+      email: "dev@johangirod.com"
 metadataFiles:
   readme: README.md
   license: LICENSE
@@ -34,6 +46,5 @@ metadataFiles:
   changelog: CHANGELOG.md
   codeOfConduct: null
   governance: null
-  funding: null
-lastUpdated: 2023-11-28
-score: 0
+lastUpdated: 2023-12-01
+awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_7/10-blue

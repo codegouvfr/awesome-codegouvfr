@@ -2,19 +2,18 @@ publiccodeYmlVersion: "0.2"
 name: betagouv/rdv-service-public
 url: https://github.com/betagouv/rdv-service-public
 landingURL: https://www.rdv-solidarites.fr
-isBasedOn: false
 creationDate: 2019-05-21
-latestReleaseDate: ""
-latestCommitDate: 2023-11-27
+latestRelease:
+  date: ""
+  version: ""
+latestCommitDate: 2023-11-29
 latestTestedInstallationDate: ""
-latestFundingDate: ""
 logo: https://github.com/betagouv.png
 usedBy: []
-distinctAuthorsCount: 0
-distinctOrganizationCount: 0
+fundedBy: []
 roadmap: ""
 softwareType: ""
-distribution: []
+packages: []
 description:
   en:
     shortDescription: Prise de RDV pour les servics publics
@@ -22,8 +21,11 @@ description:
 legal:
   license: agpl-3.0
   authorsFile: ""
+authors:
+  distinctAuthorsCount: 0
+  distinctOrganizationsCount: 0
 maintenance:
-  type: ""
+  type: community
   contacts:
     - name: ""
       email: ""
@@ -34,6 +36,5 @@ metadataFiles:
   changelog: CHANGELOG.md
   codeOfConduct: null
   governance: null
-  funding: null
-lastUpdated: 2023-11-28
-score: 0
+lastUpdated: 2023-12-01
+awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_7/10-blue

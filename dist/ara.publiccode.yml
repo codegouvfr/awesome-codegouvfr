@@ -2,19 +2,18 @@ publiccodeYmlVersion: "0.2"
 name: DISIC/Ara
 url: https://github.com/DISIC/Ara
 landingURL: https://ara.numerique.gouv.fr/
-isBasedOn: false
 creationDate: 2022-07-11
-latestReleaseDate: ""
+latestRelease:
+  date: ""
+  version: ""
 latestCommitDate: 2023-10-19
 latestTestedInstallationDate: ""
-latestFundingDate: ""
 logo: https://github.com/DISIC.png
 usedBy: []
-distinctAuthorsCount: 0
-distinctOrganizationCount: 0
+fundedBy: []
 roadmap: ""
 softwareType: ""
-distribution: []
+packages: []
 description:
   en:
     shortDescription: Faire des audits RGAA, les rendre lisibles et suivre
@@ -23,8 +22,11 @@ description:
 legal:
   license: null
   authorsFile: ""
+authors:
+  distinctAuthorsCount: 0
+  distinctOrganizationsCount: 0
 maintenance:
-  type: ""
+  type: community
   contacts:
     - name: ""
       email: ""
@@ -35,6 +37,5 @@ metadataFiles:
   changelog: CHANGELOG.md
   codeOfConduct: null
   governance: null
-  funding: null
-lastUpdated: 2023-11-28
-score: 0
+lastUpdated: 2023-12-01
+awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_7/10-blue

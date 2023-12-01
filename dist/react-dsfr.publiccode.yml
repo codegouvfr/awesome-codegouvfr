@@ -2,20 +2,20 @@ publiccodeYmlVersion: "0.2"
 name: codegouvfr/react-dsfr
 url: https://github.com/codegouvfr/react-dsfr
 landingURL: https://react-dsfr.codegouv.studio
-isBasedOn: false
 creationDate: 2022-09-20
-latestReleaseDate: ""
-latestCommitDate: 2023-11-22
+latestRelease:
+  date: ""
+  version: ""
+latestCommitDate: 2023-11-29
 latestTestedInstallationDate: ""
-latestFundingDate: ""
 logo: https://github.com/codegouvfr.png
 usedBy: []
-distinctAuthorsCount: 0
-distinctOrganizationCount: 0
+fundedBy: []
 roadmap: ""
 softwareType: ""
-distribution:
-  - npm
+packages:
+  - systemName: npm
+    url: https://www.npmjs.com/package/@codegouvfr/react-dsfr
 description:
   en:
     shortDescription: 🇫🇷 Design system React toolkit
@@ -23,8 +23,11 @@ description:
 legal:
   license: mit
   authorsFile: ""
+authors:
+  distinctAuthorsCount: 0
+  distinctOrganizationsCount: 0
 maintenance:
-  type: ""
+  type: community
   contacts:
     - name: ""
       email: ""
@@ -35,6 +38,5 @@ metadataFiles:
   changelog: null
   codeOfConduct: null
   governance: null
-  funding: null
-lastUpdated: 2023-11-28
-score: 0
+lastUpdated: 2023-12-01
+awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_7/10-blue

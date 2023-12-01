@@ -2,20 +2,20 @@ publiccodeYmlVersion: "0.2"
 name: betagouv/dsfr-view-components
 url: https://github.com/betagouv/dsfr-view-components
 landingURL: https://betagouv.github.io/dsfr-view-components
-isBasedOn: false
 creationDate: 2022-10-09
-latestReleaseDate: ""
+latestRelease:
+  date: ""
+  version: ""
 latestCommitDate: 2023-06-20
 latestTestedInstallationDate: ""
-latestFundingDate: ""
 logo: https://github.com/betagouv.png
 usedBy: []
-distinctAuthorsCount: 0
-distinctOrganizationCount: 0
+fundedBy: []
 roadmap: ""
 softwareType: ""
-distribution:
-  - rubygems
+packages:
+  - systemName: rubygems
+    url: https://rubygems.org/gems/dsfr-view-components
 description:
   en:
     shortDescription: Composants Rails pour le DSFR
@@ -23,8 +23,11 @@ description:
 legal:
   license: mit
   authorsFile: ""
+authors:
+  distinctAuthorsCount: 0
+  distinctOrganizationsCount: 0
 maintenance:
-  type: ""
+  type: community
   contacts:
     - name: ""
       email: ""
@@ -34,6 +37,5 @@ metadataFiles:
   contributing: null
   changelog: null
   codeOfConduct: null
-  funding: null
-lastUpdated: 2023-11-28
-score: 0
+lastUpdated: 2023-12-01
+awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_6/10-blue

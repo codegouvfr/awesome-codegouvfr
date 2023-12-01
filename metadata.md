@@ -1,6 +1,6 @@
-# Spécification du format `publiccode[gouvfr].yml`
+# Présentation des métadonnées pour les fichiers `*.publiccode.yml`
 
-## Champs obligatoires (test est True)
+## Champs obligatoires
 
 | Nom | Type | Collecte | Test | Champ `publiccode.yml` | Champ ecosyste.ms | Champ actuel | Critère SFPC | Description |
 |----|----|----|----|----|----|----|----|----|
@@ -15,10 +15,36 @@
 | `latestTestedInstallationDate` | Date | Manuel | !vide | - | - | - | Document the code |    |
 | `creationDate` | Date | Automatique | > 6 mois | - | `repository.created_at` | `creation_date` |    |    |
 | `usedBy` | String[] | Manuel | longueur >= 2 | `usedBy` (optionnel) | - | - | Make the codebase reusable and portable | Liste des noms des administrations |
-| `fundedBy` | String[] | Manuel | !vide | - | - | - |    | Liste des liens des administrations dans l’[annuaire du SP](https://lannuaire.service-public.fr/) ou à défaut des noms |
-| `maintenance/contacts` | String[] | Manuel | !vide | `maintenance/contacts` (obligatoire dans certains cas) | - | - | Welcome contributors | Liste des e-mails ou URLs de contact des mainteneurs |
+| `fundedBy` | {String, URL}[] | Manuel | !vide | - | - | - |    | Liste des liens des administrations dans l’[annuaire du SP](https://lannuaire.service-public.fr/) ou à défaut des noms |
+| `maintenance/contacts` | {String}[] | Manuel | !vide | `maintenance/contacts` (obligatoire dans certains cas) | - | - | Welcome contributors | Liste des e-mails ou URLs de contact des mainteneurs |
 
-### Champs obligatoires `publiccode.yml` écartés pour le moment
+## Champs optionnels
+
+Si l'un de ces champs est renseigné, le score est incrémenté de `+1`.
+
+| Nom | Type | Collecte | Test | Champ `publiccode.yml` | Champ ecosyste.ms | Champ actuel | Critère SFPC | Description |    |
+|----|----|----|----|----|----|----|----|----|----|
+| `metadataFiles/contributing` | URL | Automatique | !vide | - | `repository.metadata.files.contributing` |    | Welcome contributors |    | 1 |
+| `metadataFiles/changelog` | URL | Automatique | !vide | - | `repository.metadata.files.changelog` |    | Document codebase maturity |    | 2 |
+| `metadataFiles/codeOfConduct` | URL | Automatique | !vide | - | `repository.metadata.files.code_of_conduct` |    | Welcome contributors |    | 3 |
+| `metadataFiles/governance` | URL | Automatique | !vide | - | `repository.metadata.files.code_of_conduct` |    | Welcome contributors |    | 4 |
+| `roadmap` | URL | Automatique | !vide | `roadmap` (optionnel) | EN ATTENTE |    | Welcome contributors |    | 5 |
+| `latestCommitDate` | Date | Automatique | < 6 mois | - | `repository.pushed_at` |    |    |    | 6 |
+| `latestRelease` | {Date, String} | Automatique | < 6 mois | `releaseDate` (obligatoire) | EN ATTENTE |    | Maintain version control | Date et numéro de version du dernier tag | 7 |
+| `legal/authorsFile`\n`authors/authorsFile/distinctAuthorsCount`\n`authors/authorsFile/distinctOrganizationsCount` | Number | Automatique\nManuel\nManuel | !vide\n> 1\n> 1 | - | EN ATTENTE |    |    |    | 8 |
+| `packages` | {String, URL}[] | Automatique | longueur > 0 | - | `packages.ecosystem` |    |    | Liste des distributions (nom du système et URL) | 9 |
+| `landingUrl` | URL | Automatique | !vide | `landingUrl` (optionnel) | `homepage` |    |    |    | 10 |
+
+## Autres champs optionnels 
+
+Ces champs ne sont pas comptabilisés dans le score.
+
+| Nom | Type | Collecte | Champ `publiccode.yml` | Champ ecosyste.ms | Champ actuel | Critère SFPC | Description |
+|----|----|----|----|----|----|----|----|
+| `logo` | URL | Automatique | `logo` (optionnel) | `repository.icon_url` |    |    |    |
+| `awesomeShield` | String | Automatique | - | - | - | - | Badge de complètude/score /10 des champs optionnels |
+
+### Champs obligatoires dans `publiccode.yml` et écartés dans nos fichiers
 
 * `platforms`
 * `categories`
@@ -30,30 +56,6 @@
 * `localisation/localisationReady`
 * `localisation/availableLanguages`
 
-## Champs optionnels (test est True => score += 1)
-
-| Nom | Type | Collecte | Test | Champ `publiccode.yml` | Champ ecosyste.ms | Champ actuel | Critère SFPC | Description |    |
-|----|----|----|----|----|----|----|----|----|----|
-| `metadataFiles/contributing` | URL | Automatique | !vide | - | `repository.metadata.files.contributing` |    | Welcome contributors |    | 1 |
-| `metadataFiles/changelog` | URL | Automatique | !vide | - | `repository.metadata.files.changelog` |    | Document codebase maturity |    | 2 |
-| `metadataFiles/codeOfConduct` | URL | Automatique | !vide | - | `repository.metadata.files.code_of_conduct` |    | Welcome contributors |    | 3 |
-| `metadataFiles/governance` | URL | Automatique | !vide | - | `repository.metadata.files.code_of_conduct` |    | Welcome contributors |    | 4 |
-| `roadmap` | URL | Automatique | !vide | `roadmap` (optionnel) | EN ATTENTE |    | Welcome contributors |    | 5 |
-| `latestCommitDate` | Date | Automatique | < 6 mois | - | `repository.pushed_at` |    |    |    | 6 |
-| `latestReleaseDate` | Date | Automatique | < 6 mois | `releaseDate` (obligatoire) | EN ATTENTE |    | Maintain version control | Date du dernier tag | 7 |
-| `legal/authorsFile`\n`authors/authorsFile/distinctAuthorsCount`\n`authors/authorsFile/distinctOrganizationsCount` | Number | Automatique\nManuel\nManuel | !vide\n> 1\n> 1 | - | EN ATTENTE |    |    |    | 8 |
-| `packaging` | String[] | Automatique | longueur > 0 | - | `packages.ecosystem` |    |    | Liste d’URLs des packages distribués | 9 |
-| `landingUrl` | URL | Automatique | !vide | `landingUrl` (optionnel) | `homepage` |    |    |    | 10 |
-
-## Autres champs optionnels non comptabilisés dans le score
-
-
-
-| Nom | Type | Collecte | Champ `publiccode.yml` | Champ ecosyste.ms | Champ actuel | Critère SFPC | Description |
-|----|----|----|----|----|----|----|----|
-| `logo` | URL | Automatique | `logo` (optionnel) | `repository.icon_url` |    |    |    |
-| `awesomeScore` | Number | Automatique | - | - | - | - | Complètude/score /10 des champs optionnels |
-
-## Autres champs ?
+## Autres champs à considérer ?
 
 * accessibilité
