@@ -4,7 +4,9 @@ name: Medusa
 url: "https://example.com/italia/medusa.git"
 landingURL: "https://example.com/italia/medusa" # optional
 creationDate: # new
-latestReleaseDate: "2017-04-15" # `releaseDate` and mandatory in publiccode.yml - optional
+latestRelease: 
+  date: "2017-04-15" # `releaseDate` and mandatory in publiccode.yml - optional
+  version: "1.0.0"
 latestCommitDate: # new - optional
 latestTestedInstallationDate: # new
 logo: img/logo.svg # optional
@@ -19,8 +21,9 @@ fundedBy:
 roadmap: "https://example.com/italia/medusa/roadmap" # optional
 
 softwareType: "standalone/desktop"
-packaging: # new - optional
-  - npm
+packages: # new - optional
+  - systemName: npm
+    url: "https://www.npmjs.com/package/@codegouvfr/react-dsfr"
 
 description:
   en:
@@ -51,6 +54,6 @@ metadataFiles: # new - optional
   codeOfConduct:
   governance:
 
-score: 10
+awesomeShield: "https://img.shields.io/badge/awesome-codegouvfr_10/10-blue"
 
 lastUpdated: 2023-11-30
