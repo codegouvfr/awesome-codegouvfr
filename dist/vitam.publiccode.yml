@@ -9,8 +9,22 @@ latestRelease:
 latestCommitDate: 2023-10-25
 latestTestedInstallationDate: ""
 logo: https://github.com/ProgrammeVitam.png
-usedBy: []
-fundedBy: []
+usedBy:
+  - Archives nationales
+  - Archives diplomatiques
+  - Service historique de la Défense
+  - CNAM
+  - INPI
+  - Métropole Nice Côte d'Azur
+  - Cines
+  - Urssaf - Caisse nationale
+fundedBy:
+  - name: Ministère de la Culture
+    url: https://lannuaire.service-public.fr/gouvernement/da1d6275-6710-485d-a249-282cac69dfe7
+  - name: Ministère de l'Europe et des Affaires étrangères
+    url: https://lannuaire.service-public.fr/gouvernement/ac1a7fdb-50f4-4599-b306-ec06b7250965
+  - name: Ministère des Armées
+    url: https://lannuaire.service-public.fr/gouvernement/d24d1af2-c506-4b10-82e8-ab92b8e959d2
 roadmap: ""
 softwareType: ""
 packages: []
@@ -26,10 +40,9 @@ authors:
   distinctAuthorsCount: 0
   distinctOrganizationsCount: 0
 maintenance:
-  type: community
+  type: internal
   contacts:
-    - name: ""
-      email: ""
+    - email: "contact@programmevitam.fr"
 metadataFiles:
   readme: README.en.rst
   license: LICENSE.md
