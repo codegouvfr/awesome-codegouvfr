@@ -8,8 +8,14 @@ latestRelease:
   version: ""
 latestCommitDate: 2023-11-29
 latestTestedInstallationDate: ""
-logo: https://github.com/SocialGouv.png
-usedBy: []
+logo: https://socialgouv.github.io/socialgroove-100.jpg
+usedBy:
+ - Ministères sociaux
+ - beta.gouv.fr
+ - MTES
+ - ANS
+ - ADEME
+ - ANACT
 fundedBy: []
 roadmap: ""
 softwareType: ""
@@ -18,6 +24,9 @@ description:
   en:
     shortDescription: The best-practices Dashboard
     documentation: ""
+  fr:
+    shortDescription: Tableau de bord des bonnes pratiques techniques
+    documentation: ""
 legal:
   license: apache-2.0
   authorsFile: ""
@@ -25,10 +34,10 @@ authors:
   distinctAuthorsCount: 0
   distinctOrganizationsCount: 0
 maintenance:
-  type: community
+  type: internal
   contacts:
-    - name: ""
-      email: ""
+    - name: "Julien Bouquillon"
+      email: "julien.bouquillon@sg.social.gouv.fr"
 metadataFiles:
   readme: README.md
   license: LICENSE
