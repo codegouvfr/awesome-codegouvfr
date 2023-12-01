@@ -13,7 +13,7 @@ Ces projets forment un sous-ensemble de tous ceux qu'on trouve sur
 
 Ils sont décrits dans les fichiers `*.publiccode.yml` du répertoire
 [/dist](/dist/).  Ces fichiers utilisent des noms de champs que nous
-détaillons dans la [documentation](docs.md).
+détaillons dans la documentation des [métadonnées](metadata.md).
 
 Le format de nos fichiers `.yml` est le même que le format
 [publiccode.yml](https://github.com/publiccodeyml/publiccode.yml),
