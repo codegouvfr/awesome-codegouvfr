@@ -1,6 +1,6 @@
-# Spécification du format `publiccode[gouvfr].yml`
+# Présentation des métadonnées pour les fichiers `*.publiccode.yml`
 
-## Champs obligatoires (test est True)
+## Champs obligatoires
 
 | Nom | Type | Collecte | Test | Champ `publiccode.yml` | Champ ecosyste.ms | Champ actuel | Critère SFPC | Description |
 |----|----|----|----|----|----|----|----|----|
@@ -18,19 +18,9 @@
 | `fundedBy` | String[] | Manuel | !vide | - | - | - |    | Liste des liens des administrations dans l’[annuaire du SP](https://lannuaire.service-public.fr/) ou à défaut des noms |
 | `maintenance/contacts` | String[] | Manuel | !vide | `maintenance/contacts` (obligatoire dans certains cas) | - | - | Welcome contributors | Liste des e-mails ou URLs de contact des mainteneurs |
 
-### Champs obligatoires `publiccode.yml` écartés pour le moment
+## Champs optionnels
 
-* `platforms`
-* `categories`
-* `developmentStatus`
-* `description/[lang]/longDescription`
-* `description/[lang]/features`
-* `maintenance/type`
-  * `maintenance/contractors` (if `maintenance/type` is `contract`)
-* `localisation/localisationReady`
-* `localisation/availableLanguages`
-
-## Champs optionnels (test est True => score += 1)
+Si l'un de ces champs est renseigné, le score est incrémenté de `+1`.
 
 | Nom | Type | Collecte | Test | Champ `publiccode.yml` | Champ ecosyste.ms | Champ actuel | Critère SFPC | Description |    |
 |----|----|----|----|----|----|----|----|----|----|
@@ -45,15 +35,27 @@
 | `packaging` | String[] | Automatique | longueur > 0 | - | `packages.ecosystem` |    |    | Liste d’URLs des packages distribués | 9 |
 | `landingUrl` | URL | Automatique | !vide | `landingUrl` (optionnel) | `homepage` |    |    |    | 10 |
 
-## Autres champs optionnels non comptabilisés dans le score
+## Autres champs optionnels 
 
-
+Ces champs ne sont pas comptabilisés dans le score.
 
 | Nom | Type | Collecte | Champ `publiccode.yml` | Champ ecosyste.ms | Champ actuel | Critère SFPC | Description |
 |----|----|----|----|----|----|----|----|
 | `logo` | URL | Automatique | `logo` (optionnel) | `repository.icon_url` |    |    |    |
 | `awesomeScore` | Number | Automatique | - | - | - | - | Complètude/score /10 des champs optionnels |
 
-## Autres champs ?
+### Champs obligatoires dans `publiccode.yml` et écartés dans nos fichiers
+
+* `platforms`
+* `categories`
+* `developmentStatus`
+* `description/[lang]/longDescription`
+* `description/[lang]/features`
+* `maintenance/type`
+  * `maintenance/contractors` (if `maintenance/type` is `contract`)
+* `localisation/localisationReady`
+* `localisation/availableLanguages`
+
+## Autres champs à considérer ?
 
 * accessibilité
