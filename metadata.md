@@ -15,8 +15,8 @@
 | `latestTestedInstallationDate` | Date | Manuel | !vide | - | - | - | Document the code |    |
 | `creationDate` | Date | Automatique | > 6 mois | - | `repository.created_at` | `creation_date` |    |    |
 | `usedBy` | String[] | Manuel | longueur >= 2 | `usedBy` (optionnel) | - | - | Make the codebase reusable and portable | Liste des noms des administrations |
-| `fundedBy` | String[] | Manuel | !vide | - | - | - |    | Liste des liens des administrations dans l’[annuaire du SP](https://lannuaire.service-public.fr/) ou à défaut des noms |
-| `maintenance/contacts` | String[] | Manuel | !vide | `maintenance/contacts` (obligatoire dans certains cas) | - | - | Welcome contributors | Liste des e-mails ou URLs de contact des mainteneurs |
+| `fundedBy` | {String, URL}[] | Manuel | !vide | - | - | - |    | Liste des liens des administrations dans l’[annuaire du SP](https://lannuaire.service-public.fr/) ou à défaut des noms |
+| `maintenance/contacts` | {String}[] | Manuel | !vide | `maintenance/contacts` (obligatoire dans certains cas) | - | - | Welcome contributors | Liste des e-mails ou URLs de contact des mainteneurs |
 
 ## Champs optionnels
 
