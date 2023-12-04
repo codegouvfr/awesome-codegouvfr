@@ -40,6 +40,11 @@ optionnels](metadata.md#champs-optionnels) sont renseignés :
 - une nouvelle version (*tag*) de moins de six mois ;
 - un fichier de description des auteurs (`AUTHORS.md` ou autre).
 
+Si un projet renseigne 7/10 de ces champs, ce badge peut être utilisé
+dans le README du projet:
+
+![Awesome CodeGouvFr score](https://img.shields.io/badge/awesome-codegouvfr_7/10-blue)
+
 # Licence
 
 Les données de ce dépôt sont publiées sous licence Ouverte [Etalab
