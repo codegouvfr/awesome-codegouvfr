@@ -7,17 +7,25 @@ latestRelease:
   date: ""
   version: ""
 latestCommitDate: 2023-11-21
-latestTestedInstallationDate: ""
+latestTestedInstallationDate: 2023-08-24
 logo: https://github.com/spyrales.png
-usedBy: []
-fundedBy: []
-roadmap: ""
-softwareType: ""
+usedBy: 
+  - Ministère de la Transition écologique et de la Cohésion des territoires
+  - DREAL des Pays de la Loire
+fundedBy: 
+  - name: SGAR des Pays de la Loire
+    url: https://lannuaire.service-public.fr/pays-de-la-loire/loire-atlantique/41fd8208-e566-417e-a9d0-3e8a1860165e
+  - name: Ministère de la Transition écologique et de la Cohésion des territoires, Commissariat général au développement durable
+    url: https://lannuaire.service-public.fr/gouvernement/b6441e59-9a83-4122-8c48-6e7e59ca6245
+  - name: DREAL des Pays de la Loire
+    url: https://lannuaire.service-public.fr/pays-de-la-loire/loire-atlantique/2716dc0c-0fe7-47db-8141-df05f5409a7a
+roadmap: "https://github.com/spyrales/shinygouv/projects/1"
+softwareType: "R package"
 packages: []
 description:
   fr:
     shortDescription: Design System de l'Etat pour Shiny
-    documentation: ""
+    documentation: "https://spyrales.github.io/shinygouv/"
 legal:
   license: eupl-1.2
   authorsFile: ""
@@ -27,13 +35,13 @@ authors:
 maintenance:
   type: community
   contacts:
-    - name: ""
-      email: ""
+    - name: "Juliette Engelaere-Lefebvre"
+      email: "juliette.engelaere@developpement-durable.gouv.fr"
 metadataFiles:
   readme: README.Rmd
   license: LICENSE
   contributing: .github/CONTRIBUTING.md
-  changelog: null
+  changelog: NEWS.md
   codeOfConduct: CODE_OF_CONDUCT.md
   governance: null
 lastUpdated: 2023-12-01
