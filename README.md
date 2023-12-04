@@ -9,7 +9,9 @@ critères suivants :
 - ils sont **fortement réutilisables** par toute administration.
 
 Ces projets forment un sous-ensemble de tous ceux qu'on trouve sur
-[code.gouv.fr/public](https://code.gouv.fr/public/).
+[code.gouv.fr/public](https://code.gouv.fr/public/) et ils sont
+publiés sur cette page dédiée :
+[code.gouv.fr/fr/awesome](https://code.gouv.fr/fr/awesome/)
 
 Ils sont décrits dans les fichiers `*.publiccode.yml` du répertoire
 [/dist](/dist/).  Ces fichiers utilisent des noms de champs que nous
