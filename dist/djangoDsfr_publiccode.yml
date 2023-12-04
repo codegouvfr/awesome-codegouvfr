@@ -17,7 +17,7 @@ packages:
   - systemName: pypi
     url: https://pypi.org/project/django-dsfr/
 description:
-  en:
+  fr:
     shortDescription: Intégration du système de design de l'État français dans Django
     documentation: ""
 legal:

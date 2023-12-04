@@ -23,7 +23,7 @@ packages:
   - systemName: go
     url: https://pkg.go.dev/github.com/etalab/decoupage-administratif
 description:
-  en:
+  fr:
     shortDescription: Données concernant le découpage administratif français, au format JSON
     documentation: ""
 legal:

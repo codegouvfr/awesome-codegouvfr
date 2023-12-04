@@ -17,7 +17,7 @@ packages:
   - systemName: npm
     url: https://www.npmjs.com/package/codes-postaux
 description:
-  en:
+  fr:
     shortDescription: Générer et manipuler facilement le fichier des codes postaux
     documentation: ""
 legal:

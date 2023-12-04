@@ -17,7 +17,7 @@ packages:
   - systemName: rubygems
     url: https://rubygems.org/gems/dsfr-view-components
 description:
-  en:
+  fr:
     shortDescription: Composants Rails pour le DSFR
     documentation: ""
 legal:
