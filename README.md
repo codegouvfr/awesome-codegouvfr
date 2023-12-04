@@ -18,10 +18,27 @@ détaillons dans la documentation des [métadonnées](metadata.md).
 Le format de nos fichiers `.yml` est le même que le format
 [publiccode.yml](https://github.com/publiccodeyml/publiccode.yml),
 même si nous ne suivons pas strictement le standard publiccode en
-omettant certaines données que celui-ci considère obligatoires, et en en ajoutant d'autres que nous trouvons pertinentes.
+omettant certaines données que celui-ci considère obligatoires, et en
+en ajoutant d'autres que nous trouvons pertinentes.
 
 Un exemple de description d'un projet se trouve dans le fichier
 [template.publiccode.yml](template.publiccode.yml).
+
+# Awesome CodeGouvFr score
+
+En plus des [champs obligatoires](metadata.md#champs-obligatoires), un
+score `Awesome CodeGouvFr` est proposé si ces [champs
+optionnels](metadata.md#champs-optionnels) sont renseignés :
+
+- un logo du projet ;
+- une page d'accueil du projet (indépendamment du dépôt) ;
+- un fichier décrivant la façon de contribuer (`CONTRIBUTING.md`) ;
+- un fichier décrivant les changements (`CHANGELOG.md`) ;
+- un code de conduite (`CODE_OF_CONDUCT.md`) ;
+- un fichier décrivant la gouvernance (`GOVERNANCE.md`) ;
+- un commit de moins de six mois dans une des branches ;
+- une nouvelle version (*tag*) de moins de six mois ;
+- un fichier de description des auteurs (`AUTHORS.md` ou autre).
 
 # Licence
 
