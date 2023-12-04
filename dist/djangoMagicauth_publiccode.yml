@@ -1,5 +1,5 @@
 publiccodeYmlVersion: "0.2"
-name: betagouv/django-magicauth
+name: Django Magicauth
 url: https://github.com/betagouv/django-magicauth
 landingURL: null
 creationDate: 2019-09-05

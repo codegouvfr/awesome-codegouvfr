@@ -1,5 +1,5 @@
 publiccodeYmlVersion: "0.2"
-name: numerique-gouv/django-dsfr
+name: Django DSFR
 url: https://github.com/numerique-gouv/django-dsfr
 landingURL: https://numerique-gouv.github.io/django-dsfr/
 creationDate: 2021-07-28

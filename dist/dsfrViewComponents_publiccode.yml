@@ -1,5 +1,5 @@
 publiccodeYmlVersion: "0.2"
-name: betagouv/dsfr-view-components
+name: Rail Components DSFR
 url: https://github.com/betagouv/dsfr-view-components
 landingURL: https://betagouv.github.io/dsfr-view-components
 creationDate: 2022-10-09
@@ -17,7 +17,7 @@ packages:
   - systemName: rubygems
     url: https://rubygems.org/gems/dsfr-view-components
 description:
-  fr:
+  en:
     shortDescription: Composants Rails pour le DSFR
     documentation: ""
 legal:
