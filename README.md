@@ -28,7 +28,7 @@ Un exemple de description d'un projet se trouve dans le fichier
 
 # Awesome CodeGouvFr score
 
-En plus des [champs obligatoires](metadata.md#champs-obligatoires), un
+En plus des [champs requis](metadata.md#champs-requis), un
 score `Awesome CodeGouvFr` est proposé si ces [champs
 optionnels](metadata.md#champs-optionnels) sont renseignés :
 

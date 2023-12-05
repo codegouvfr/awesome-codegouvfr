@@ -1,6 +1,6 @@
 # Présentation des métadonnées pour les fichiers `*.publiccode.yml`
 
-## Champs obligatoires
+## Champs requis
 
 | Nom | Type | Collecte | Test | Champ `publiccode.yml` | Champ ecosyste.ms | Champ actuel | Critère SFPC | Description |
 |----|----|----|----|----|----|----|----|----|
