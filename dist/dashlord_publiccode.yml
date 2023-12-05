@@ -16,7 +16,9 @@ usedBy:
  - ANS
  - ADEME
  - ANACT
-fundedBy: []
+fundedBy:
+  - name: Fabrique numérique des ministères sociaux
+    url: https://www.fabrique.social.gouv.fr
 roadmap: ""
 softwareType: ""
 packages: []
@@ -30,9 +32,6 @@ description:
 legal:
   license: apache-2.0
   authorsFile: ""
-fundedBy:
-  - name: Fabrique numérique des ministères sociaux
-    url: https://www.fabrique.social.gouv.fr
 authors:
   distinctAuthorsCount: 0
   distinctOrganizationsCount: 0
