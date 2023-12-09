@@ -4,33 +4,42 @@ url: https://github.com/CatalaLang/catala
 landingURL: https://catala-lang.org
 creationDate: 2020-04-17
 latestRelease:
-  date: ""
-  version: ""
-latestCommitDate: 2023-11-24
+  date: "2023-03-29"
+  version: "0.8.0"
+latestCommitDate: 2023-12-05
 latestTestedInstallationDate: ""
 logo: https://github.com/CatalaLang.png
-usedBy: []
-fundedBy: []
-roadmap: ""
-softwareType: ""
+usedBy:
+  - name: Direction Générale des Finances Publiques (DGFiP)
+    url: https://gitlab.adullact.net/dgfip/ir-catala
+fundedBy:
+  - name: Institut National de Recherche en Informatique et en Automatique (INRIA)
+    url: https://team.inria.fr/prosecco/
+roadmap: "https://www.lemonde.fr/blog/binaire/2022/11/29/pour-un-bureau-de-transformation-du-droit-en-code/"
+softwareType: "standalone/other"
 packages:
+  - systemName: opam
+    url: https://opam.ocaml.org/packages/catala
   - systemName: npm
     url: https://www.npmjs.com/package/@catala-lang/french-law
 description:
   en:
-    shortDescription: Programming language for literate programming law specification
-    documentation: ""
+    shortDescription: "Domain-specific programming language designed for deriving correct-by-construction implementations from legislative texts"
+  fr:
+    shortDescription: "Langage de programmation dédié à l'écriture d'implémentations correctes d'algorithmes dérivés de textes législatifs"
 legal:
   license: apache-2.0
-  authorsFile: ""
+  authorsFile: https://github.com/CatalaLang/catala/blob/master/CITATION.cff
 authors:
-  distinctAuthorsCount: 0
-  distinctOrganizationsCount: 0
+  distinctAuthorsCount: 10
+  distinctOrganizationsCount: 1
 maintenance:
-  type: community
+  type: internal
   contacts:
-    - name: ""
-      email: ""
+    - name: "Denis Merigoux"
+      email: "denis.merigoux@inria.fr"
+    - name: "Louis Gesbert"
+      email: "louis.gesbert@inria.fr"
 metadataFiles:
   readme: README.md
   license: LICENSE.txt
@@ -38,5 +47,5 @@ metadataFiles:
   changelog: null
   codeOfConduct: null
   governance: null
-lastUpdated: 2023-12-01
+lastUpdated: 2023-12-05
 awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_7/10-blue
