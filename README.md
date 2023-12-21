@@ -1,72 +1,69 @@
 # Awesome CodeGouvFr
 
-Ce dépôt contient une sélection de logiciels libres répondant aux
-critères suivants :
+This repository contains a selection of free software that meet the following criteria:
 
-- ils sont activement **maintenus** ;
-- ils ont **financés** par un ou plusieurs organismes publics ;
-- ils sont **utilisés** par plusieurs administrations ;
-- ils sont **fortement réutilisables** par toute administration.
+- they are actively **maintained** ;
+- they are currently **sponsored** by one or more public administrations;
+- they are currently **used** by several public administrations;
+- they are **highly reusable** by any public administration.
 
-Ces projets forment un sous-ensemble de tous ceux qu'on trouve sur
-[code.gouv.fr/public](https://code.gouv.fr/public/) et ils sont
-publiés sur cette page dédiée :
-[code.gouv.fr/fr/awesome](https://code.gouv.fr/fr/awesome/)
+These projects are a subset of all the projects found on
+[code.gouv.fr/public](https://code.gouv.fr/public/) and they can be found on this dedicated page:
+[code.gouv.fr/en/awesome](https://code.gouv.fr/fr/awesome/)
 
-Ils sont décrits dans les fichiers `*.publiccode.yml` du répertoire
-[/dist](/dist/).  Ces fichiers utilisent des noms de champs que nous
-détaillons dans la documentation des [métadonnées](metadata.md).
+They are described in the `*.publiccode.yml` files in the
+[/dist](/dist/) directory.  These files use field names that we
+detailed in the [metadata](metadata.md) documentation.
 
-Le format de nos fichiers `.yml` est le même que le format
-[publiccode.yml](https://github.com/publiccodeyml/publiccode.yml),
-même si nous ne suivons pas strictement le standard publiccode en
-omettant certaines données que celui-ci considère obligatoires, et en
-en ajoutant d'autres que nous trouvons pertinentes.
+The format of our `.yml` files is the same as that of the
+[publiccode.yml](https://github.com/publiccodeyml/publiccode.yml) format, 
+although we do not strictly follow the publiccode standard by
+omitting certain data that it considers mandatory, 
+and adding others that we consider relevant.
 
-Un exemple de description d'un projet se trouve dans le fichier
+An example of a project description can be found in the file
 [template.publiccode.yml](template.publiccode.yml).
 
 # Awesome CodeGouvFr score
 
-En plus des [champs requis](metadata.md#champs-requis), un
-score `Awesome CodeGouvFr` est proposé si ces [champs
-optionnels](metadata.md#champs-optionnels) sont renseignés :
+In addition to the [required fields](metadata.md#required-fields), an
+`Awesome CodeGouvFr` score will be calculated if these [optional fields](metadata.md#optionalfields) are filled in:
 
-- un logo du projet ;
-- une page d'accueil du projet (indépendamment du dépôt) ;
-- un fichier décrivant la façon de contribuer (`CONTRIBUTING.md`) ;
-- un fichier décrivant les changements (`CHANGELOG.md`) ;
-- un code de conduite (`CODE_OF_CONDUCT.md`) ;
-- un fichier décrivant la gouvernance (`GOVERNANCE.md`) ;
-- un fichier ou un lien vers la roadmap (`ROADMAP.md`) ;
-- un commit de moins de six mois dans une des branches ;
-- une nouvelle version (*tag*) de moins de six mois ;
-- un fichier de description des auteurs (`AUTHORS.md` ou autre).
+- a project logo ;
+- a project home page (independent of the repository) ;
+- a file describing how to contribute (`CONTRIBUTING.md`) ;
+- a file describing the changes (`CHANGELOG.md`) ;
+- a code of conduct file (`CODE_OF_CONDUCT.md`) ;
+- a file describing governance (`GOVERNANCE.md`);
+- a roadmap file or link (`ROADMAP.md`);
+- a commit less than six months old in one of the branches ;
+- a new release (*tag*) less than six months old;
+- an author description file (`AUTHORS.md` or other).
 
-Si un projet renseigne 7/10 de ces champs, ce badge peut être utilisé
-dans le README du projet:
+If a project fills out 7/10 of these fields, this badge can be used
+in the project's README:
 
 ![Awesome CodeGouvFr score](https://img.shields.io/badge/awesome-codegouvfr_7/10-blue)
 
-# Comment contribuer ?
+# How can I contribute?
 
-## Si votre projet est déjà dans la liste
+## If your project is already in the list
 
-Si vous souhaitez modifier le fichier `*.publiccode.yml` de votre projet, vous pouvez directement soumettre une Pull Request avec vos modifications.
+If you want to update your project's `*.publiccode.yml` file, you can submit a pull request directly with your changes.
 
-Vous pouvez utiliser le [`template.publiccode.yml`](template.publiccode.yml) comme exemple.
+You can use the [`template.publiccode.yml`](template.publiccode.yml) as an example.
 
-## Pour un nouveau projet
+## For a new project
  
- Si vous pensez que votre projet répond aux critères d'entrée de la liste, n'hésitez pas à nous écrire à <contact@code.gouv.fr> pour en discuter.
+ If you think your project meets the entry criteria to be included in the list, feel free to write to us at <contact@code.gouv.fr> to discuss it.
 
- Vous pouvez également soumettre une Pull Request contenant le fichier `*.publiccode.yml` de votre projet. Pour le créer, vous pouvez copier le [`template.publiccode.yml`](template.publiccode.yml), ou en générer un à partir de [la petite API d'outillage dédiée](https://github.com/codegouvfr/awesome-codegouvfr-tooling), et le modifier/compléter.
+ You can also submit a pull request containing the `*.publiccode.yml` file for your project. To create it, you can copy the [`template.publiccode.yml`](template.publiccode.yml), or generate one from [the small dedicated tooling API](https://github.com/codegouvfr/awesome-codegouvfr-tooling), and modify/complete it.
 
- # Comment mettre à jour la page [code.gouv.fr/fr/awesome](https://code.gouv.fr/fr/awesome) ?
+ # How do I update the [code.gouv.fr/en/awesome](https://code.gouv.fr/fr/awesome) page?
 
-Ce dépôt est utilisé comme un sous-module du [dépôt du site](https://github.com/codegouvfr/codegouvfr-website). Il faut mettre à jour le sous-module dans ce dépôt (`git pull && git commit`).
+This repository is used as a submodule of the [site repository](https://github.com/codegouvfr/codegouvfr-website). You need to update the submodule in this repository (`git pull && git commit`).
 
 # Licence
 
-Les données de ce dépôt sont publiées sous licence Ouverte [Etalab
-2.0](LICENSES/LICENSE.Etalab-2.0.md).
+The data in this repository is published under the [Etalab
+2.0 license](LICENSES/LICENSE.Etalab-2.0.md).
