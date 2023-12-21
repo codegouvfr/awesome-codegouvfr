@@ -1,59 +1,58 @@
 publiccodeYmlVersion: "0.2"
 
-name: Medusa
-url: "https://example.com/italia/medusa.git"
-landingURL: "https://example.com/italia/medusa" # optional
-creationDate: # new
+name: Awesome CodeGouvFr
+url: "https://github.com/codegouvfr/awesome-codegouvfr"
+landingURL: "https://code.gouv.fr/fr/awesome" # optional
+creationDate: "2023-11-23" # new compared to publiccode.yml
 latestRelease: 
-  date: "2017-04-15" # `releaseDate` and mandatory in publiccode.yml - optional
+  date: "2023-12-21" # `releaseDate` and mandatory in publiccode.yml - optional
   version: "1.0.0"
-latestCommitDate: # new - optional
-latestTestedInstallationDate: # new
+latestCommitDate: "2023-12-21" # new - optional
+latestTestedInstallationDate: "2023-12-21" # new
 logo: img/logo.svg # optional
 
 usedBy: # mandatory - optional in publiccode.yml
-  - Comune di Firenze
-  - Comune di Roma
+  - Mission logiciels libres (DINUM)
 
 fundedBy:
   - name: DINUM
     url: https://lannuaire.service-public.fr/gouvernement/d1a97841-b4bf-46df-a089-1003e4e266b4
 
-roadmap: "https://example.com/italia/medusa/roadmap" # optional
+roadmap: "https://code.gouv.fr" # optional
 
-softwareType: "standalone/desktop"
+softwareType: "configurationFiles"
 packages: # new - optional
-  - systemName: npm
-    url: "https://www.npmjs.com/package/@codegouvfr/react-dsfr"
+  - systemName: zip
+    url: "https://github.com/codegouvfr/awesome-codegouvfr/archive/refs/tags/v1.0.0.zip"
 
 description:
   en:
     shortDescription: >
-          A rather short description which
-          is probably useless
-    documentation: "https://read.the.documentation/medusa/v1.0" # mandatory - optional in publiccode.yml
+          The curated list of
+          French public codes.
+    documentation: "https://github.com/codegouvfr/awesome-codegouvfr/blob/main/README.md" # mandatory - optional in publiccode.yml
 
 legal:
-  license: AGPL-3.0-or-later
-  authorsFile: AUTHORS # optional
+  license: Etalab 2.0
+  authorsFile: AUTHORS.md # optional
 
 authors:
-  distinctAuthorsCount: # new - optional
-  distinctOrganizationsCount: # new - optional
+  distinctAuthorsCount: 5 # new - optional
+  distinctOrganizationsCount: 1 # new - optional
 
 maintenance:
   type: "internal"
   contacts:
-    - email: "francesco.rossi@comune.reggioemilia.it" # mandatory - optional in publiccode.yml
+    - email: "contact@code.gouv.fr" # mandatory - optional in publiccode.yml
   
 metadataFiles: # new - optional
-  readme: # mandatory
-  license: # mandatory
-  contributing:
-  changelog:
-  codeOfConduct:
-  governance:
+  readme: README.md # mandatory
+  license: LICENSE.md # mandatory
+  contributing: CONTRIBUTING.md
+  changelog: CHANGELOG.md
+  codeOfConduct: CODE_OF_CONDUCT.md
+  governance: GOVERNANCE.md
 
 awesomeShield: "https://img.shields.io/badge/awesome-codegouvfr_10/10-blue"
 
-lastUpdated: 2023-11-30
+lastUpdated: 2023-12-21
