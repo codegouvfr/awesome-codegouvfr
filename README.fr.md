@@ -1,3 +1,5 @@
+*See [english version](README.md)*
+
 # Awesome CodeGouvFr
 
 Ce dépôt contient une sélection de logiciels libres répondant aux

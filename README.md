@@ -1,3 +1,5 @@
+*Voir la [version française](README.fr.md) de ce README*
+
 # Awesome CodeGouvFr
 
 This repository contains a selection of free software that meet the following criteria:
