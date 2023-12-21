@@ -8,7 +8,7 @@ latestRelease:
   version: ""
 latestCommitDate: 2023-11-29
 latestTestedInstallationDate: ""
-logo: https://socialgouv.github.io/socialgroove-100.jpg
+logo: https://github.com/SocialGouv.png
 usedBy:
  - Ministères sociaux
  - beta.gouv.fr
@@ -39,7 +39,7 @@ maintenance:
   type: internal
   contacts:
     - name: "Julien Bouquillon"
-      email: "julien.bouquillon@sg.social.gouv.fr"
+      email: "julien.bouquillon@beta.gouv.fr"
 metadataFiles:
   readme: README.md
   license: LICENSE
