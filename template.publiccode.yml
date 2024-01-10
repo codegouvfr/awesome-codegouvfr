@@ -2,26 +2,26 @@ publiccodeYmlVersion: "0.2"
 
 name: Awesome CodeGouvFr
 url: "https://github.com/codegouvfr/awesome-codegouvfr"
-landingURL: "https://code.gouv.fr/fr/awesome" # optional
-creationDate: "2023-11-23" # new compared to publiccode.yml
+landingURL: "https://code.gouv.fr/fr/awesome"
+creationDate: "2023-11-23"
 latestRelease: 
-  date: "2023-12-21" # `releaseDate` and mandatory in publiccode.yml - optional
+  date: "2023-12-21"
   version: "1.0.0"
-latestCommitDate: "2023-12-21" # new - optional
-latestTestedInstallationDate: "2023-12-21" # new
-logo: img/logo.svg # optional
+latestCommitDate: "2023-12-21"
+latestTestedInstallationDate: "2023-12-21"
+logo: img/logo.svg
 
-usedBy: # mandatory - optional in publiccode.yml
+usedBy:
   - Mission logiciels libres (DINUM)
 
 fundedBy:
   - name: DINUM
     url: https://lannuaire.service-public.fr/gouvernement/d1a97841-b4bf-46df-a089-1003e4e266b4
 
-roadmap: "https://code.gouv.fr" # optional
+roadmap: "https://code.gouv.fr"
 
 softwareType: "configurationFiles"
-packages: # new - optional
+packages:
   - systemName: zip
     url: "https://github.com/codegouvfr/awesome-codegouvfr/archive/refs/tags/v1.0.0.zip"
 
@@ -30,24 +30,24 @@ description:
     shortDescription: >
           The curated list of
           French public codes.
-    documentation: "https://github.com/codegouvfr/awesome-codegouvfr/blob/main/README.md" # mandatory - optional in publiccode.yml
+    documentation: "https://github.com/codegouvfr/awesome-codegouvfr/blob/main/README.md"
 
 legal:
   license: Etalab 2.0
-  authorsFile: AUTHORS.md # optional
+  authorsFile: AUTHORS.md
 
 authors:
-  distinctAuthorsCount: 5 # new - optional
-  distinctOrganizationsCount: 1 # new - optional
+  distinctAuthorsCount: 5
+  distinctOrganizationsCount: 1
 
 maintenance:
   type: "internal"
   contacts:
-    - email: "contact@code.gouv.fr" # mandatory - optional in publiccode.yml
+    - email: "contact@code.gouv.fr"
   
-metadataFiles: # new - optional
-  readme: README.md # mandatory
-  license: LICENSE.md # mandatory
+metadataFiles:
+  readme: README.md
+  license: LICENSE.md
   contributing: CONTRIBUTING.md
   changelog: CHANGELOG.md
   codeOfConduct: CODE_OF_CONDUCT.md
