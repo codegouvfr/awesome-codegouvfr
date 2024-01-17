@@ -44,7 +44,7 @@ dans le `README` du projet:
 
 ![Awesome CodeGouvFr score](https://img.shields.io/badge/awesome-codegouvfr_7/10-blue)
 
-Ce score permet d'attester de l'exemplarité du projet.
+Ce score permet d'attester l'exemplarité du projet.
 
 # Comment contribuer ?
 
