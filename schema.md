@@ -28,7 +28,7 @@ Un exemple d'utilisation de ce format se trouve dans le fichier
 | `name` | String | Automatique | !vide | Nom du projet
 | `url` | URL | Automatique | !vide | Lien vers le dépôt
 | `creationDate` | Date | Automatique | > 6 mois | Date de création du projet (1er commit)
-| `latestTestedInstallationDate` | Date | Manuel | !vide | Date de dernière installation (exécution des instructions du `README` ?) réussie
+| `latestTestedInstallationDate` | Date | Manuel | !vide | Date de dernière installation (exécution des instructions du `README` ?) réussie : N/A pour le moment
 | `usedBy` | String[] | Manuel | longueur >= 2 | Liste des noms des administrations réutilisatrices
 | `fundedBy` | {String, URL}[] | Manuel | !vide | Liste des noms et des liens dans l’[annuaire du SP](https://lannuaire.service-public.fr/) des administrations qui participent au financement, ou à défaut des noms seuls
 | `softwareType` | Enum | Manuel | !vide | Type de logiciel selon la typologie de `publiccode.yml`
