@@ -1,14 +1,16 @@
-*See [english version](README.md)*
+*See [english version](README.md.)*
 
-# Awesome CodeGouvFr
+# Critères Awesome CodeGouvFr
 
 Ce dépôt contient une sélection de logiciels libres répondant aux
 critères suivants :
 
-- ils sont activement **maintenus** ;
-- ils ont **financés** par un ou plusieurs organismes publics ;
-- ils sont **utilisés** par plusieurs administrations ;
-- ils sont **fortement réutilisables** par toute administration.
+1. leur code source est **publié** sous une *licence libre*, et *documenté*
+2. ils sont activement **maintenus** depuis *au moins 6 mois*, par *un ou plusieurs mainteneurs joignables* ;
+3. ils ont **financés** par *un ou plusieurs organismes publics* ;
+4. ils sont **utilisés** par *plusieurs administrations*.
+
+Ces critères leur confère un caractère **fortement réutilisables** par toute administration.
 
 Ces projets forment un sous-ensemble de tous ceux que l'on trouve sur
 [code.gouv.fr/public](https://code.gouv.fr/public/) et ils sont
@@ -21,27 +23,28 @@ Ils sont décrits dans les fichiers `*.publiccode.yml` du répertoire
 Un exemple de description d'un projet se trouve dans le fichier
 [template.publiccode.yml](template.publiccode.yml).
 
-# Awesome CodeGouvFr score
+# Score Awesome CodeGouvFr
 
-En plus des [champs requis](schema.md#champs-requis), un
-score `Awesome CodeGouvFr` est proposé si ces [champs
-optionnels](schema.md#champs-optionnels-awesome-codegouvfr) sont renseignés :
+En plus des critères requis, un
+score `Awesome CodeGouvFr` est proposé si ces [critères optionnels](schema.md#champs-optionnels-awesome-codegouvfr) sont vrais :
 
-- une page d'accueil du projet (indépendamment du dépôt) ;
-- une nouvelle version (*tag*) de moins de six mois ;
-- un commit de moins de six mois dans une des branches ;
-- un logo du projet ;
-- un fichier ou un lien vers la roadmap (`ROADMAP.md`) ;
-- un fichier de description des auteurs (`AUTHORS.md` ou autre) ;
-- un fichier décrivant la façon de contribuer (`CONTRIBUTING.md`) ;
-- un fichier décrivant les changements (`CHANGELOG.md`) ;
-- un code de conduite (`CODE_OF_CONDUCT.md`) ;
-- un fichier décrivant la gouvernance (`GOVERNANCE.md`).
+1. il existe une page d'accueil du projet (indépendamment du dépôt) ;
+2. la dernière version (*tag*) date de moins de six mois ;
+3. le dernier commit (dans n'importe quelle branche) date de moins de six mois ;
+4. il existe un logo du projet ;
+5. il existe un fichier ou un lien vers la roadmap (`ROADMAP.md`) ;
+6. il existe un fichier de description des auteurs (`AUTHORS.md` ou autre) ;
+7. il existe un fichier décrivant la façon de contribuer (`CONTRIBUTING.md`) ;
+8. il existe un fichier décrivant les changements (`CHANGELOG.md`) ;
+9. il existe un code de conduite (`CODE_OF_CONDUCT.md`) ;
+10. il existe un fichier décrivant la gouvernance (`GOVERNANCE.md`).
 
-Si un projet valide 7/10 de ces champs, ce badge peut être utilisé
+Si un projet valide 7/10 de ces critères, ce badge peut être utilisé
 dans le `README` du projet:
 
 ![Awesome CodeGouvFr score](https://img.shields.io/badge/awesome-codegouvfr_7/10-blue)
+
+Ce score permet d'attester de l'exemplarité du projet.
 
 # Comment contribuer ?
 

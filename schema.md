@@ -7,9 +7,9 @@ Nous avons gardé certains champs obligatoires et écarté d'autres champs oblig
 
 Nous en avons extrait un format propre, dont nous détaillons les champs (par ordre d'apparition) dans ce document.
 
-Les **champs requis** sont les champs dont la présence est obligatoire et renseignés tels que le test est valide pour pouvoir apparaître dans le classement.
+Les **champs obligatoires** sont les champs dont la présence est obligatoire et renseignés tels que le test est valide. Ils correspondent aux [**critères requis**](README.fr.md#critères-awesome-codegouvfr) pour pouvoir apparaître dans le classement. La correspondance avec ces critères est indiquée dans la dernière colonne du tableau.
 
-Les **champs optionnels `Awesome CodeGouvFr`**, au nombre de 10, sont utilisés pour le calcul d'un score `Awesome CodeGouvFr` /10. Ce score est incrémenté de 1 point à chaque test de champ valide.
+Les **champs optionnels**, au nombre de 10, sont utilisés pour le calcul du [**score `Awesome CodeGouvFr`**](README.fr.md#score-awesome-codegouvfr) sur 10. Ce score est incrémenté de 1 point à chaque test de champ valide.
 
 D'**autres champs optionnels**, non comptabilisés dans le score, ajoutent de l'information que nous jugeons pertinente au projet.
 
@@ -20,30 +20,30 @@ Nous détaillons également la différence avec le format `publiccode.yml` ci-de
 Un exemple d'utilisation de ce format se trouve dans le fichier
 [template.publiccode.yml](template.publiccode.yml).
 
-## Champs requis
+## Champs obligatoires
 
-| Nom | Type | Collecte | Test | Description |
-|----|----|----|----|----|
-| `publiccodeYmlVersion` | String | Statique (= “0.2”) | !vide | Version du format `publiccode.yml` : N/A pour le moment
-| `name` | String | Automatique | !vide | Nom du projet
-| `url` | URL | Automatique | !vide | Lien vers le dépôt
-| `creationDate` | Date | Automatique | > 6 mois | Date de création du projet (1er commit)
-| `latestTestedInstallationDate` | Date | Manuel | !vide | Date de dernière installation (exécution des instructions du `README` ?) réussie : N/A pour le moment
-| `usedBy` | String[] | Manuel | longueur >= 2 | Liste des noms des administrations réutilisatrices
-| `fundedBy` | {String, URL}[] | Manuel | !vide | Liste des noms et des liens dans l’[annuaire du SP](https://lannuaire.service-public.fr/) des administrations qui participent au financement, ou à défaut des noms seuls
-| `softwareType` | Enum | Manuel | !vide | Type de logiciel selon la typologie de `publiccode.yml`
-| `description/[lang]/shortDescription` | String | Automatique | !vide [+ est lisible] | Description courte du projet
-| `description/[lang]/documentation` | URL | Manuel | !vide | Lien vers la documentation du projet (site dédié ou lien vers un `README`)
-| `legal/license` | String | Automatique | !vide [+ est OSI] | Type de licence du dépôt
-| `maintenance/type` | String | Manuel | !vide | Type de maintenance du projet selon la typologie de `publiccode.yml` |
-| `maintenance/contacts` | {String, String}[] | Manuel | !vide | Liste des contacts des mainteneurs : adresse e-mail et/ou URL |
-| `metadataFiles/readme` | URL | Automatique | !vide [+ `README` est lisible ?] | Lien relatif vers le fichier `README`
-| `metadataFiles/license` | URL | Automatique | !vide | Lien relatif vers le fichier de licence (quid si plusieurs ?)
-| `lastUpdated` | Date | Manuel ou automatique | !vide | Date de dernière mise à jour du fichier
+| Nom | Type | Collecte | Test | Description | Numéro de critère |
+|----|----|----|----|----|----|
+| `publiccodeYmlVersion` | String | Statique (= “0.2”) | !vide | Version du format `publiccode.yml` : N/A pour le moment | N/A
+| `name` | String | Automatique | !vide | Nom du projet | N/A
+| `url` | URL | Automatique | !vide | Lien vers le dépôt | 1
+| `creationDate` | Date | Automatique | > 6 mois | Date de création du projet (1er commit) | 2
+| `latestTestedInstallationDate` | Date | Manuel | !vide | Date de dernière installation (exécution des instructions du `README` ?) réussie : N/A pour le moment | N/A
+| `usedBy` | String[] | Manuel | longueur >= 2 | Liste des noms des administrations réutilisatrices | 4
+| `fundedBy` | {String, URL}[] | Manuel | !vide | Liste des noms et des liens dans l’[annuaire du SP](https://lannuaire.service-public.fr/) des administrations qui participent au financement, ou à défaut des noms seuls | 3
+| `softwareType` | Enum | Manuel | !vide | Type de logiciel selon la typologie de `publiccode.yml` | N/A
+| `description/[lang]/shortDescription` | String | Automatique | !vide [+ est lisible] | Description courte du projet | 1
+| `description/[lang]/documentation` | URL | Manuel | !vide | Lien vers la documentation du projet (site dédié ou lien vers un `README`) | 1
+| `legal/license` | String | Automatique | !vide [+ est OSI] | Type de licence du dépôt | 1
+| `maintenance/type` | String | Manuel | !vide | Type de maintenance du projet selon la typologie de `publiccode.yml` | N/A
+| `maintenance/contacts` | {String, String}[] | Manuel | !vide | Liste des contacts des mainteneurs : adresse e-mail et/ou URL | 2
+| `metadataFiles/readme` | URL | Automatique | !vide [+ `README` est lisible ?] | Lien relatif vers le fichier `README` | 1
+| `metadataFiles/license` | URL | Automatique | !vide | Lien relatif vers le fichier de licence (quid si plusieurs ?) | 1
+| `lastUpdated` | Date | Manuel ou automatique | !vide | Date de dernière mise à jour du fichier | N/A
 
 ## Champs optionnels `Awesome CodeGouvFr`
 
-| Nom | Type | Collecte | Test | Description |    |
+| Nom | Type | Collecte | Test | Description | Numéro de critère |
 |----|----|----|----|----|----|
 | `landingUrl` | URL | Automatique | !vide | Site web du projet | 1 |
 | `latestRelease/date` | Date | Automatique | < 6 mois | Date de la dernière version (tag) du projet | 2 |
@@ -58,7 +58,7 @@ Un exemple d'utilisation de ce format se trouve dans le fichier
 | `metadataFiles/codeOfConduct` | URL | Automatique | !vide | Lien relatif vers le code de conduite | 9 |
 | `metadataFiles/governance` | URL | Automatique | !vide | Lien relatif vers le fichier `governance` | 10 |
 
-**Le critère 6 est divisé en 3 sous-critères qui doivent être vrais simultanément.*
+**Le critère 6 est divisé en 3 champs qui doivent être vrais simultanément.*
 
 ## Autres champs optionnels 
 
