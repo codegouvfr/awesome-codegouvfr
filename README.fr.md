@@ -5,7 +5,7 @@
 Ce dépôt contient une sélection de logiciels libres répondant aux
 critères suivants :
 
-1. leur code source est **publié** sous une *licence libre*, et *documenté*
+1. leur code source est **publié** sous une *licence libre*, et *documenté* ;
 2. ils sont activement **maintenus** depuis *au moins 6 mois*, par *un ou plusieurs mainteneurs joignables* ;
 3. ils ont **financés** par *un ou plusieurs organismes publics* ;
 4. ils sont **utilisés** par *plusieurs administrations*.
