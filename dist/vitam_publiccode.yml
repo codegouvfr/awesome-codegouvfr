@@ -1,7 +1,7 @@
 publiccodeYmlVersion: "0.2"
 name: Vitam
 url: https://github.com/ProgrammeVitam/vitam
-landingURL: null
+landingURL: http://www.programmevitam.fr/pages/presentation/
 creationDate: 2017-01-15
 latestRelease:
   date: ""
@@ -51,4 +51,4 @@ metadataFiles:
   codeOfConduct: null
   governance: null
 lastUpdated: 2023-12-01
-awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_5/10-blue
+awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_6/10-blue
