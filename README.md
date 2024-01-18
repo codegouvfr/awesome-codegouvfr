@@ -58,9 +58,9 @@ You can use the [`template.publiccode.yml`](template.publiccode.yml) as an examp
 
  You can also submit a pull request containing the `*.publiccode.yml` file for your project. To create it, you can copy the [`template.publiccode.yml`](template.publiccode.yml), or generate one from [the small dedicated tooling API](https://github.com/codegouvfr/awesome-codegouvfr-tooling), and modify/complete it.
 
- # How do I update the [code.gouv.fr/en/awesome](https://code.gouv.fr/fr/awesome) page?
+ # How do I update the [code.gouv.fr/fr/awesome](https://code.gouv.fr/fr/awesome) page?
 
-This repository is used as a submodule of the [site repository](https://github.com/codegouvfr/codegouvfr-website). You need to update the submodule in this repository (`git pull && git commit`).
+This repository is used as a submodule of the [website repository](https://github.com/codegouvfr/codegouvfr-website). You need to update the submodule in this repository (`git pull && git commit`).
 
 # Licence
 
