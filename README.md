@@ -2,12 +2,12 @@
 
 # Awesome CodeGouvFr criteria
 
-This repository contains a selection of free software that meet the following criteria:
+This repository contains a selection of free **software** that meet the following criteria:
 
 1. their source code is **published** under an *open source licence* and *documented*;
 2. they have been actively **maintained** by *one or more contactable maintainers* for *at least 6 months*;
 3. they are currently **sponsored** by *one or more public administrations*;
-4. they are currently **used** by *several public administrations*;
+4. they are currently **used** (i.e. deployed) by *several public administrations*;
 
 These criteria make them **strongly reusable** by any administration.
 
