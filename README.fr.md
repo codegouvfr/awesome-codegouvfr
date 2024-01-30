@@ -15,10 +15,12 @@ Ces critères leur confère un caractère **fortement réutilisable** par toute 
 Ces projets forment un sous-ensemble de tous ceux que l'on trouve sur
 [code.gouv.fr/public](https://code.gouv.fr/public/) et ils sont
 publiés sur cette page dédiée :
-[code.gouv.fr/fr/awesome](https://code.gouv.fr/fr/awesome/)
+[code.gouv.fr/fr/awesome](https://code.gouv.fr/fr/awesome/).
 
 Ils sont décrits dans les fichiers `*.publiccode.yml` du répertoire
 [/dist](/dist/). Le format de ce fichier est détaillé dans la [documentation du format](schema.md).
+
+Ils sont également publiés au format JSON : [code.gouv.fr/data/awesome-codegouvfr.json](https://code.gouv.fr/data/awesome-codegouvfr.json).
 
 Un exemple de description d'un projet se trouve dans le fichier
 [template.publiccode.yml](template.publiccode.yml).
@@ -59,10 +61,6 @@ Vous pouvez utiliser le [`template.publiccode.yml`](template.publiccode.yml) com
  Si vous pensez que votre projet répond aux critères d'entrée de la liste, n'hésitez pas à nous écrire à <contact@code.gouv.fr> pour en discuter.
 
  Vous pouvez également soumettre une Pull Request contenant le fichier `*.publiccode.yml` de votre projet. Pour le créer, vous pouvez copier le [`template.publiccode.yml`](template.publiccode.yml), ou en générer un à partir de [la petite API d'outillage dédiée](https://github.com/codegouvfr/awesome-codegouvfr-tooling), et le modifier/compléter.
-
- # Comment mettre à jour la page [code.gouv.fr/fr/awesome](https://code.gouv.fr/fr/awesome) ?
-
-Ce dépôt est utilisé comme un sous-module du [dépôt du site](https://github.com/codegouvfr/codegouvfr-website). Il faut mettre à jour le sous-module dans ce dépôt (`git pull && git commit`).
 
 # Licence
 

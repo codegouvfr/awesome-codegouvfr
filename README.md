@@ -13,10 +13,12 @@ These criteria make them **strongly reusable** by any administration.
 
 These projects are a subset of all the projects found on
 [code.gouv.fr/public](https://code.gouv.fr/public/) and they can be found on this dedicated page:
-[code.gouv.fr/en/awesome](https://code.gouv.fr/fr/awesome/)
+[code.gouv.fr/en/awesome](https://code.gouv.fr/fr/awesome/).
 
 They are described in the `*.publiccode.yml` files in the
 [/dist](/dist/) directory.  The format of this file is detailed in the [schema documentation](schema.md).
+
+They are also published in JSON format: [code.gouv.fr/data/awesome-codegouvfr.json](https://code.gouv.fr/data/awesome-codegouvfr.json).
 
 An example of a project description can be found in the file
 [template.publiccode.yml](template.publiccode.yml).
@@ -57,10 +59,6 @@ You can use the [`template.publiccode.yml`](template.publiccode.yml) as an examp
  If you think your project meets the entry criteria to be included in the list, feel free to write to us at <contact@code.gouv.fr> to discuss it.
 
  You can also submit a pull request containing the `*.publiccode.yml` file for your project. To create it, you can copy the [`template.publiccode.yml`](template.publiccode.yml), or generate one from [the small dedicated tooling API](https://github.com/codegouvfr/awesome-codegouvfr-tooling), and modify/complete it.
-
- # How do I update the [code.gouv.fr/fr/awesome](https://code.gouv.fr/fr/awesome) page?
-
-This repository is used as a submodule of the [website repository](https://github.com/codegouvfr/codegouvfr-website). You need to update the submodule in this repository (`git pull && git commit`).
 
 # Licence
 
