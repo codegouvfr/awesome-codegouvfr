@@ -66,7 +66,7 @@ Un exemple d'utilisation de ce format se trouve dans le fichier
 |----|----|----|----|
 | `latestRelease/version` | Date | Automatique | Nom de la dernière version (tag) du projet
 | `packages` | {String, URL}[] | Automatique | Liste des distributions (nom du système et URL)
-| `awesomeScore` | String | Automatique | Score /10 des champs optionnels correspondants
+| `awesomeScore` | [1-10] | Automatique | Score /10 des champs optionnels correspondants
 | `awesomeShield` | String | Automatique | Badge de complètude du score
 
 
