@@ -53,6 +53,7 @@ metadataFiles:
   codeOfConduct: CODE_OF_CONDUCT.md
   governance: GOVERNANCE.md
 
+awesomeScore: 10
 awesomeShield: "https://img.shields.io/badge/awesome-codegouvfr_10/10-blue"
 
 lastUpdated: 2023-12-21

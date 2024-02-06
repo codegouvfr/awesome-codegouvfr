@@ -66,7 +66,8 @@ Un exemple d'utilisation de ce format se trouve dans le fichier
 |----|----|----|----|
 | `latestRelease/version` | Date | Automatique | Nom de la dernière version (tag) du projet
 | `packages` | {String, URL}[] | Automatique | Liste des distributions (nom du système et URL)
-| `awesomeShield` | String | Automatique | Badge de complètude/score /10 des champs optionnels correspondants |
+| `awesomeScore` | String | Automatique | Score /10 des champs optionnels correspondants
+| `awesomeShield` | String | Automatique | Badge de complètude du score
 
 
 ## Analyse de `publiccode.yml` et différences
@@ -136,6 +137,7 @@ Ce Standard s'appuie sur le format [`publiccode.yml`](https://github.com/publicc
 * `packages` (optionnel)
 * `authors/*` (optionnel)
 * `metadataFiles/*` (optionnel sauf `/readme` et `/license`)
+* `awesomeScore` (optionnel)
 * `awesomeShield` (optionnel)
 * `lastUpdated` (obligatoire)
 
