@@ -12,7 +12,47 @@ latestTestedInstallationDate: "2024-03-28"
 logo: pod/main/static/img/pod_favicon.svg
 
 usedBy:
-  - Mission logiciels libres (DINUM)
+ - Ministère de l'Éducation Nationale de la Jeunesse et des Sports (Direction du numérique pour l'éducation)
+ - Aix-Marseille université 
+ - La Rochelle Université 
+ - Le Mans Université 
+ - Université Côte d’Azur (Nice) 
+ - Université d'Artois 
+ - Université d'Avignon 
+ - Université de Bordeaux 
+ - Université de Bretagne Occidentale (Brest) 
+ - Université de Caen Normandie 
+ - Université de Haute-Alsace
+ - Université de Lille 
+ - Université de Lorraine 
+ - Université de Montpellier 
+ - Université de Pau 
+ - Université de Strasbourg 
+ - Université de Technologie de Belfort Montbéliard 
+ - Université de Technologie de Compiègne 
+ - Université de Technologie de Troyes 
+ - Université de Toulon 
+ - Université des Antilles 
+ - Université du Littoral Côte d'Opale 
+ - Université Européenne pour un Littoral Urbain Durable et Intelligent (EU-CONEXUS - La Rochelle Université) 
+ - Université Grenoble Alpes 
+ - Université Paris 1 
+ - Université Paris-Est Créteil - Pod U-PEC 
+ - Université Paul-Valéry Montpellier 3 
+ - Université Polynésie Française 
+ - Université Polytechnique Hauts-de-France 
+ - Université Saint Étienne 
+ - UVSQ Université de Versailles Saint-Quentin-en-Yvelines 
+ - CNAM'IDS France (Pod 25 tenants) 
+ - Inserm
+ - École nationale de la magistrature (Ministère de la justice) 
+ - INSA Rennes 
+ - Institut Mines-Télécom (IMT) 
+ - IMT Mines Albi 
+ - INSPE de Paris 
+ - Académie de Normandie
+ - Académie de Rennes
+ - GIP RECIA
 
 fundedBy:
   - name: Consortium Esup-Portail / Université de Lille
