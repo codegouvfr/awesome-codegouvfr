@@ -9,7 +9,7 @@ latestRelease:
   version: "3.5.2"
 latestCommitDate: "2024-03-28"
 latestTestedInstallationDate: "2024-03-28"
-logo: pod/main/static/img/pod_favicon.svg
+logo: https://pod.esup-portail.org/themes/esup_pod_theme/img/icon--pod_final.svg
 
 usedBy:
  - Ministère de l'Éducation Nationale de la Jeunesse et des Sports (Direction du numérique pour l'éducation)
