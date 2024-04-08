@@ -1,0 +1,58 @@
+publiccodeYmlVersion: "0.2"
+
+name: Esup-Pod
+url: "https://github.com/EsupPortail/Esup-Pod"
+landingURL: "https://pod.esup-portail.org/"
+creationDate: "2015-03-11"
+latestRelease: 
+  date: "2024-03-28"
+  version: "3.5.2"
+latestCommitDate: "2024-03-28"
+latestTestedInstallationDate: "2024-03-28"
+logo: pod/main/static/img/pod_favicon.svg
+
+usedBy:
+  - Mission logiciels libres (DINUM)
+
+fundedBy:
+  - name: Consortium Esup-Portail / Université de Lille
+    url: https://www.esup-portail.org/
+
+roadmap: "https://pod.esup-portail.org/perimetre-fonctionnel"
+
+softwareType: "video management"
+packages:
+  - systemName: python+django
+    url: "https://github.com/EsupPortail/Esup-Pod/releases/tag/3.5.2"
+
+description:
+  en:
+    shortDescription: >
+          The project and the platform of the same name are aimed at users of our institutions, by allowing the publication of videos in the fields of research (promotion of platforms, etc.), training (tutorials, distance training, student reports, etc.), institutional life (video of events), offering several days of content.
+    documentation: "https://github.com/EsupPortail/Esup-Pod/blob/master/README.md"
+
+legal:
+  license: LGPL 3
+  authorsFile: AUTHORS.md
+
+authors:
+  distinctAuthorsCount: 50
+  distinctOrganizationsCount: 1
+
+maintenance:
+  type: "internal"
+  contacts:
+    - email: "contact@esup-portail.org"
+  
+metadataFiles:
+  readme: README.md
+  license: COPYING
+  contributing: CONTRIBUTING.md
+  changelog: ""
+  codeOfConduct: CODE_OF_CONDUCT.md
+  governance: ""
+
+awesomeScore: 
+awesomeShield: ""
+
+lastUpdated: 2024-04-08
