@@ -1,0 +1,38 @@
+# This repository adheres to the publiccode.yml standard by including this
+# metadata file that makes public software easily discoverable.
+# More info at https://github.com/italia/publiccode.yml
+
+publiccodeYmlVersion: '0.2'
+name: Recommandations Collaboratives
+url: 'https://github.com/betagouv/recommandations-collaboratives'
+landingURL: 'https://recommandations-collaboratives.beta.gouv.fr'
+releaseDate: 'https://github.com/betagouv/recommandations-collaboratives/releases/latest'
+developmentStatus: beta
+softwareType: standalone/backend
+categories:
+  - digital-citizenship
+platforms:
+  - web
+legal:
+  license: AGPL-3.0-or-later
+localisation:
+  localisationReady: false
+  availableLanguages:
+    - fr
+description:
+  fr:
+    documentation: 'https://reco-co.gitbook.io/reco-co'
+    apiDocumentation: |-
+      https://recoconseil.fr/api/
+    shortDescription: |-
+      outil de conseil collaboratif entre collectivités et agents publics
+    longDescription: |
+      Le logiciel Recoco outille une méthodologie de Recommandations
+      Collaboratives se focalisant sur les problématiques complexes et
+      nécessitant de multiples expertises sur des temps longs.
+    genericName: Mise en relation d'acteurs
+    features:
+      - conseiller les collectivités
+lastUpdated: 2024-07-16
+awesomeScore: 8
+awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_8/10-blue
