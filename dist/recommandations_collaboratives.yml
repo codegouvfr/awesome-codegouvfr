@@ -3,7 +3,7 @@
 # More info at https://github.com/italia/publiccode.yml
 
 publiccodeYmlVersion: '0.2'
-name: Recommandations Collaboratives
+name: Recoco
 url: 'https://github.com/betagouv/recommandations-collaboratives'
 landingURL: 'https://recommandations-collaboratives.beta.gouv.fr'
 releaseDate: 'https://github.com/betagouv/recommandations-collaboratives/releases/latest'
@@ -24,8 +24,7 @@ description:
     documentation: 'https://reco-co.gitbook.io/reco-co'
     apiDocumentation: |-
       https://recoconseil.fr/api/
-    shortDescription: |-
-      outil de conseil collaboratif entre collectivités et agents publics
+    shortDescription: outil de conseil collaboratif entre collectivités et agents publics
     longDescription: |
       Le logiciel Recoco outille une méthodologie de Recommandations
       Collaboratives se focalisant sur les problématiques complexes et
