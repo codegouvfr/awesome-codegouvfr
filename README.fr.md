@@ -1,3 +1,5 @@
+[![img](https://img.shields.io/badge/code.gouv.fr-contributif-blue)](https://code.gouv.fr/documentation/#/publier)
+
 *See [english version](README.md.)*
 
 # Critères Awesome CodeGouvFr
