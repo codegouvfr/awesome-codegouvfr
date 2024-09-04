@@ -6,14 +6,11 @@ creationDate: 2019-06-18
 latestRelease:
   date: ""
   version: ""
-latestCommitDate: 2023-11-27
-latestTestedInstallationDate: ""
 logo: https://github.com/SocialGouv.png
 usedBy: []
 fundedBy: []
 roadmap: ""
 softwareType: ""
-packages: []
 description:
   fr:
     shortDescription: Visualisez et améliorez vos arborescences de fichiers !
@@ -21,21 +18,8 @@ description:
 legal:
   license: apache-2.0
   authorsFile: ""
-authors:
-  distinctAuthorsCount: 0
-  distinctOrganizationsCount: 0
 maintenance:
   type: community
   contacts:
     - name: ""
       email: ""
-metadataFiles:
-  readme: README.md
-  license: LICENSE
-  contributing: CONTRIBUTING.md
-  changelog: CHANGELOG.md
-  codeOfConduct: null
-  governance: null
-lastUpdated: 2023-12-01
-awesomeScore: 7
-awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_7/10-blue

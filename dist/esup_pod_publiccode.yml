@@ -15,8 +15,6 @@ creationDate: "2015-03-11"
 latestRelease: 
   date: "2024-03-28"
   version: "3.5.2"
-latestCommitDate: "2024-03-28"
-latestTestedInstallationDate: "2024-03-28"
 releaseDate: '2024-03-28'
 softwareVersion: 3.5.2
 developmentStatus: stable
@@ -76,13 +74,6 @@ fundedBy:
     url: https://www.esup-portail.org/
 logo: https://pod.esup-portail.org/themes/esup_pod_theme/img/icon--pod_final.svg
 monochromeLogo: https://pod.esup-portail.org/sites/pod.esup-portail.org/files/2023-05/LogoBLANC.svg
-metadataFiles:
-  readme: README.md
-  license: COPYING
-  contributing: CONTRIBUTING.md
-  changelog: ""
-  codeOfConduct: CODE_OF_CONDUCT.md
-  governance: ""
 maintenance:
   type: community
   contacts:
@@ -92,9 +83,6 @@ maintenance:
     - name: Esup-portail
       until: '2015-09-01'
       website: 'https://www.esup-portail.org'
-awesomeScore: 8
-awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_8/10-blue
-lastUpdated: 2024-04-08
 legal:
   license: LGPL-3.0-or-later
   mainCopyrightOwner: Esup-Portail

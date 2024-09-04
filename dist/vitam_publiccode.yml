@@ -6,8 +6,6 @@ creationDate: 2017-01-15
 latestRelease:
   date: ""
   version: ""
-latestCommitDate: 2023-10-25
-latestTestedInstallationDate: ""
 logo: https://github.com/ProgrammeVitam.png
 usedBy:
   - Archives nationales
@@ -27,7 +25,6 @@ fundedBy:
     url: https://lannuaire.service-public.fr/gouvernement/d24d1af2-c506-4b10-82e8-ab92b8e959d2
 roadmap: ""
 softwareType: ""
-packages: []
 description:
   en:
     shortDescription: Digital Archives Management System developped by French
@@ -43,13 +40,3 @@ maintenance:
   type: internal
   contacts:
     - email: "contact@programmevitam.fr"
-metadataFiles:
-  readme: README.en.rst
-  license: LICENSE.md
-  contributing: CONTRIBUTING.md
-  changelog: null
-  codeOfConduct: null
-  governance: null
-lastUpdated: 2023-12-01
-awesomeScore: 6
-awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_6/10-blue

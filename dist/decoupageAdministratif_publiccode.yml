@@ -6,22 +6,11 @@ creationDate: 2018-03-29
 latestRelease:
   date: ""
   version: ""
-latestCommitDate: 2023-09-27
-latestTestedInstallationDate: ""
 logo: https://github.com/etalab.png
 usedBy: []
 fundedBy: []
 roadmap: ""
 softwareType: ""
-packages:
-  - systemName: npm
-    url: https://www.npmjs.com/package/@webgeodatavore/decoupage-administratif
-  - systemName: maven
-    url: https://repo.maven.apache.org/maven2/org/webjars/npm/github-com-etalab-decoupage-administratif/
-  - systemName: npm
-    url: https://www.npmjs.com/package/@etalab/decoupage-administratif
-  - systemName: go
-    url: https://pkg.go.dev/github.com/etalab/decoupage-administratif
 description:
   fr:
     shortDescription: Données concernant le découpage administratif français, au format JSON
@@ -37,13 +26,3 @@ maintenance:
   contacts:
     - name: ""
       email: ""
-metadataFiles:
-  readme: README.md
-  license: LICENSE
-  contributing: null
-  changelog: null
-  codeOfConduct: null
-  governance: null
-lastUpdated: 2023-12-01
-awesomeScore: 5
-awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_5/10-blue

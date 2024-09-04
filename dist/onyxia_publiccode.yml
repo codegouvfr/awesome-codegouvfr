@@ -7,8 +7,6 @@ creationDate: 2020-03-22
 latestRelease:
   date: ""
   version: ""
-latestCommitDate: 2023-09-25
-latestTestedInstallationDate: ""
 logo: https://inseefrlab.github.io/onyxia/icon.svg
 
 platforms:
@@ -110,16 +108,3 @@ dependsOn:
   open:
    - name: Kubernetes
    - name: Helm
-
-metadataFiles:
-  readme: README.md
-  license: LICENSE
-  contributing: CONTRIBUTING.md
-  changelog: null
-  codeOfConduct: CODE_OF_CONDUCT.md
-  governance: GOVERNANCE.md
-  funding: null
-
-lastUpdated: 2023-12-01
-awesomeScore: 7
-awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_7/10-blue

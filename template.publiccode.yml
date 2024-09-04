@@ -7,8 +7,6 @@ creationDate: "2023-11-23"
 latestRelease: 
   date: "2023-12-21"
   version: "1.0.0"
-latestCommitDate: "2023-12-21"
-latestTestedInstallationDate: "2023-12-21"
 logo: img/logo.svg
 
 usedBy:
@@ -21,9 +19,6 @@ fundedBy:
 roadmap: "https://code.gouv.fr"
 
 softwareType: "configurationFiles"
-packages:
-  - systemName: zip
-    url: "https://github.com/codegouvfr/awesome-codegouvfr/archive/refs/tags/v1.0.0.zip"
 
 description:
   en:
@@ -45,15 +40,3 @@ maintenance:
   contacts:
     - email: "contact@code.gouv.fr"
   
-metadataFiles:
-  readme: README.md
-  license: LICENSE.md
-  contributing: CONTRIBUTING.md
-  changelog: CHANGELOG.md
-  codeOfConduct: CODE_OF_CONDUCT.md
-  governance: GOVERNANCE.md
-
-awesomeScore: 10
-awesomeShield: "https://img.shields.io/badge/awesome-codegouvfr_10/10-blue"
-
-lastUpdated: 2023-12-21

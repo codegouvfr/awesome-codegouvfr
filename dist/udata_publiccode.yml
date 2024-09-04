@@ -6,16 +6,11 @@ creationDate: 2014-04-25
 latestRelease:
   date: ""
   version: ""
-latestCommitDate: 2023-11-27
-latestTestedInstallationDate: ""
 logo: https://github.com/opendatateam.png
 usedBy: []
 fundedBy: []
 roadmap: ""
 softwareType: ""
-packages:
-  - systemName: pypi
-    url: https://pypi.org/project/udata/
 description:
   en:
     shortDescription: Customizable and skinnable social platform dedicated to open data.
@@ -31,13 +26,3 @@ maintenance:
   contacts:
     - name: ""
       email: ""
-metadataFiles:
-  readme: README.md
-  license: LICENSE
-  contributing: CONTRIBUTING.md
-  changelog: CHANGELOG.md
-  codeOfConduct: null
-  governance: null
-lastUpdated: 2023-12-01
-awesomeScore: 8
-awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_8/10-blue

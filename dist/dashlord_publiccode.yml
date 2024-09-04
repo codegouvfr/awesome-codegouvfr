@@ -6,8 +6,6 @@ creationDate: 2021-04-04
 latestRelease:
   date: ""
   version: ""
-latestCommitDate: 2023-11-29
-latestTestedInstallationDate: ""
 logo: https://github.com/SocialGouv.png
 usedBy:
  - Ministères sociaux
@@ -21,7 +19,6 @@ fundedBy:
     url: https://www.fabrique.social.gouv.fr
 roadmap: ""
 softwareType: ""
-packages: []
 description:
   en:
     shortDescription: The best-practices Dashboard
@@ -40,13 +37,3 @@ maintenance:
   contacts:
     - name: "Julien Bouquillon"
       email: "julien.bouquillon@beta.gouv.fr"
-metadataFiles:
-  readme: README.md
-  license: LICENSE
-  contributing: CONTRIBUTING.md
-  changelog: null
-  codeOfConduct: null
-  governance: null
-lastUpdated: 2023-12-01
-awesomeScore: 6
-awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_6/10-blue

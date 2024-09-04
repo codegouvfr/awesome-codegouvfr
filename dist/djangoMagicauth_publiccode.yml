@@ -6,14 +6,11 @@ creationDate: 2019-09-05
 latestRelease:
   date: ""
   version: ""
-latestCommitDate: 2023-08-24
-latestTestedInstallationDate: ""
 logo: https://github.com/betagouv.png
 usedBy: []
 fundedBy: []
 roadmap: ""
 softwareType: ""
-packages: []
 description:
   en:
     shortDescription: Password-less authentication for Django. An email with a magic
@@ -30,12 +27,3 @@ maintenance:
   contacts:
     - name: ""
       email: ""
-metadataFiles:
-  readme: README.md
-  license: LICENSE
-  contributing: null
-  changelog: null
-  codeOfConduct: null
-lastUpdated: 2023-12-01
-awesomeScore: 4
-awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_4/10-blue

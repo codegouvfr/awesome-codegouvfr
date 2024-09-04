@@ -6,14 +6,11 @@ creationDate: 2023-01-10
 latestRelease:
   date: ""
   version: ""
-latestCommitDate: 2023-11-29
-latestTestedInstallationDate: ""
 logo: https://github.com/numerique-gouv.png
 usedBy: []
 fundedBy: []
 roadmap: ""
 softwareType: ""
-packages: []
 description:
   fr:
     shortDescription: Gestionnaire de contenu permettant de créer et gérer un site
@@ -30,13 +27,3 @@ maintenance:
   contacts:
     - name: ""
       email: ""
-metadataFiles:
-  readme: README.md
-  license: LICENSE
-  contributing: null
-  changelog: null
-  codeOfConduct: null
-  governance: null
-lastUpdated: 2023-12-01
-awesomeScore: 5
-awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_5/10-blue

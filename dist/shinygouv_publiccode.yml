@@ -6,8 +6,6 @@ creationDate: 2022-07-08
 latestRelease:
   date: ""
   version: ""
-latestCommitDate: 2023-11-21
-latestTestedInstallationDate: 2023-08-24
 logo: https://github.com/spyrales.png
 usedBy: 
   - Ministère de la Transition écologique et de la Cohésion des territoires
@@ -21,7 +19,6 @@ fundedBy:
     url: https://lannuaire.service-public.fr/pays-de-la-loire/loire-atlantique/2716dc0c-0fe7-47db-8141-df05f5409a7a
 roadmap: "https://github.com/spyrales/shinygouv/projects/1"
 softwareType: "R package"
-packages: []
 description:
   fr:
     shortDescription: Design System de l'Etat pour Shiny
@@ -37,13 +34,3 @@ maintenance:
   contacts:
     - name: "Juliette Engelaere-Lefebvre"
       email: "juliette.engelaere@developpement-durable.gouv.fr"
-metadataFiles:
-  readme: README.Rmd
-  license: LICENSE
-  contributing: .github/CONTRIBUTING.md
-  changelog: NEWS.md
-  codeOfConduct: CODE_OF_CONDUCT.md
-  governance: null
-lastUpdated: 2023-12-01
-awesomeScore: 7
-awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_7/10-blue

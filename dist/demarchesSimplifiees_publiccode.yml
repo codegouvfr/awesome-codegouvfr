@@ -6,14 +6,11 @@ creationDate: 2015-10-13
 latestRelease:
   date: ""
   version: ""
-latestCommitDate: 2023-10-19
-latestTestedInstallationDate: ""
 logo: https://github.com/demarches-simplifiees.png
 usedBy: []
 fundedBy: []
 roadmap: ""
 softwareType: ""
-packages: []
 description:
   fr:
     shortDescription: "Dématérialiser et simplifier les démarches administratives "
@@ -29,13 +26,3 @@ maintenance:
   contacts:
     - name: ""
       email: ""
-metadataFiles:
-  readme: README.md
-  license: LICENSE.txt
-  contributing: CONTRIBUTING.md
-  changelog: null
-  codeOfConduct: null
-  governance: null
-lastUpdated: 2023-12-01
-awesomeScore: 6
-awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_6/10-blue

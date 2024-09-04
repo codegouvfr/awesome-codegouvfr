@@ -6,16 +6,11 @@ creationDate: 2014-11-14
 latestRelease:
   date: ""
   version: ""
-latestCommitDate: 2023-02-28
-latestTestedInstallationDate: ""
 logo: https://github.com/BaseAdresseNationale.png
 usedBy: []
 fundedBy: []
 roadmap: ""
 softwareType: ""
-packages:
-  - systemName: npm
-    url: https://www.npmjs.com/package/codes-postaux
 description:
   fr:
     shortDescription: Générer et manipuler facilement le fichier des codes postaux
@@ -31,12 +26,3 @@ maintenance:
   contacts:
     - name: ""
       email: ""
-metadataFiles:
-  readme: README.md
-  license: LICENSE
-  contributing: null
-  changelog: null
-  codeOfConduct: null
-lastUpdated: 2023-12-01
-awesomeScore: 4
-awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_4/10-blue

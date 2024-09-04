@@ -6,8 +6,6 @@ creationDate: 2019-04-02
 latestRelease:
   date: ""
   version: ""
-latestCommitDate: 2023-10-27
-latestTestedInstallationDate: ""
 logo: https://github.com/publicodes.png
 usedBy:
   - Urssaf
@@ -15,15 +13,14 @@ usedBy:
   - MTPEI
   - DINUM
 fundedBy:
-- name: Urssaf Caisse Nationale
-  url: https://lannuaire.service-public.fr/gouvernement/2ebb4281-f836-48b6-9b15-4e305d2df145
-- name: Ademe
-  url: https://lannuaire.service-public.fr/gouvernement/98505403-46c6-4d6c-9766-6c58bce9a221
-- name: Dinum
-  url: https://lannuaire.service-public.fr/gouvernement/d1a97841-b4bf-46df-a089-1003e4e266b4
+  - name: Urssaf Caisse Nationale
+    url: https://lannuaire.service-public.fr/gouvernement/2ebb4281-f836-48b6-9b15-4e305d2df145
+  - name: Ademe
+    url: https://lannuaire.service-public.fr/gouvernement/98505403-46c6-4d6c-9766-6c58bce9a221
+  - name: Dinum
+    url: https://lannuaire.service-public.fr/gouvernement/d1a97841-b4bf-46df-a089-1003e4e266b4
 roadmap: ""
 softwareType: ""
-packages: []
 description:
   fr:
     shortDescription: Le langage pour les algorithmes d'intérêt public
@@ -39,13 +36,3 @@ maintenance:
   contacts:
     - name: "Johan Girod"
       email: "dev@johangirod.com"
-metadataFiles:
-  readme: README.md
-  license: LICENSE
-  contributing: CONTRIBUTING.md
-  changelog: CHANGELOG.md
-  codeOfConduct: null
-  governance: null
-lastUpdated: 2023-12-01
-awesomeScore: 7
-awesomeShield: https://img.shields.io/badge/awesome-codegouvfr_7/10-blue
