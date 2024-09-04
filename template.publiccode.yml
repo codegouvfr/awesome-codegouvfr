@@ -31,10 +31,6 @@ legal:
   license: Etalab 2.0
   authorsFile: AUTHORS.md
 
-authors:
-  distinctAuthorsCount: 5
-  distinctOrganizationsCount: 1
-
 maintenance:
   type: "internal"
   contacts:

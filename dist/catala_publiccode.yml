@@ -20,9 +20,6 @@ description:
 legal:
   license: apache-2.0
   authorsFile: https://github.com/CatalaLang/catala/blob/master/CITATION.cff
-authors:
-  distinctAuthorsCount: 10
-  distinctOrganizationsCount: 1
 maintenance:
   type: internal
   contacts:

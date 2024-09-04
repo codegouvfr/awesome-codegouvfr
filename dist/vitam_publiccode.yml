@@ -33,9 +33,6 @@ description:
 legal:
   license: cecill-2.1
   authorsFile: ""
-authors:
-  distinctAuthorsCount: 0
-  distinctOrganizationsCount: 0
 maintenance:
   type: internal
   contacts:

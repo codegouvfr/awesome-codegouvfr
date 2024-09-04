@@ -78,10 +78,6 @@ legal:
   license: mit
   authorsFile: ""
 
-authors:
-  distinctAuthorsCount: 0
-  distinctOrganizationsCount: 0
-
 maintenance:
   type: internal
   contacts:

@@ -29,9 +29,6 @@ description:
 legal:
   license: apache-2.0
   authorsFile: ""
-authors:
-  distinctAuthorsCount: 0
-  distinctOrganizationsCount: 0
 maintenance:
   type: internal
   contacts:

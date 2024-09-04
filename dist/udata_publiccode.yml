@@ -18,9 +18,6 @@ description:
 legal:
   license: agpl-3.0
   authorsFile: ""
-authors:
-  distinctAuthorsCount: 0
-  distinctOrganizationsCount: 0
 maintenance:
   type: community
   contacts:

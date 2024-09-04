@@ -26,9 +26,6 @@ description:
 legal:
   license: eupl-1.2
   authorsFile: ""
-authors:
-  distinctAuthorsCount: 0
-  distinctOrganizationsCount: 0
 maintenance:
   type: community
   contacts:
