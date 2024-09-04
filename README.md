@@ -2,6 +2,10 @@
 
 *Voir la [version française](README.fr.md) de ce README.*
 
+⚠️️ This repository has been archived in Sept. 2024.
+
+The list of Awesome code.gouv.fr repositories is now maintained in the [codegouvfr-data](https://git.sr.ht/~codegouvfr/codegouvfr-data) repository and data is collected from `publiccode.yml` files at the root the repositories.
+
 # Awesome CodeGouvFr criteria
 
 This repository contains a selection of free **software** that meet the following criteria:

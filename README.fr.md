@@ -2,6 +2,10 @@
 
 *See [english version](README.md.)*
 
+⚠️️ Ce dépôt a été archivé en septembre 2024.
+
+La liste des dépôts Awesome code.gouv.fr est maintenant maintenue dans le dépôt [codegouvfr-data](https://git.sr.ht/~codegouvfr/codegouvfr-data) et les données sont collectées à partir des fichiers `publiccode.yml` à la racine des dépôts.
+
 # Critères Awesome CodeGouvFr
 
 Ce dépôt contient une sélection de **logiciels** libres répondant aux
