@@ -1,0 +1,33 @@
+name: Update README
+
+on:
+  schedule:
+    - cron:  '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download new README
+        run: |
+          wget -O new-readme.md http://code.gouv.fr/data/awesome-codegouvfr.md
+
+      - name: Replace README
+        run: |
+          mv new-readme.md README.md
+
+      - name: Commit and push
+        run: |
+          git config --local user.email "bastien.guerry@code.gouv.fr"
+          git config --local user.name "Bastien Guerry"
+          git add README.md
+          git commit -m "Update README from http://code.gouv.fr/data/awesome-codegouvfr.md"
+          git push
