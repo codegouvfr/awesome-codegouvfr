@@ -30,4 +30,4 @@ jobs:
           git config --local user.name "Bastien Guerry"
           git add README.md
           git commit -m "Update README from http://code.gouv.fr/data/awesome-codegouvfr.md"
-          git push
+          git push -f origin main
